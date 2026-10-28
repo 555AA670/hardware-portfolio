@@ -1,6 +1,6 @@
 # VL822 高速加隔离拓展坞
 
-基于 VL822 的自制四层拓展坞，完成 USB 扩展、千兆以太网与隔离调试接口的电路设计及 PCB 布局布线。通过 P4 端口的 USB 3.0 / USB 2.0 分别连接网卡与隔离支路，在同一块板上集成日常扩展接口和隔离调试接口。
+基于 VL822 的自制四层拓展坞，完成 USB 扩展、千兆以太网与隔离调试接口的电路设计及 PCB 布局布线。通过 P4 端口的 USB 3.0 / USB 2.0 分别连接网卡与隔离支路，在同一块板上集成日常扩展接口和隔离调试接口。样机已完成 USB 设备枚举与文件复制测试，复制截图显示约 **331 MB/s**，网口协商速率为 **1.0 Gbps**。
 
 ![VL822 拓展坞实物与 Altium 3D 设计对照](images/board-and-3d-design.jpg)
 
@@ -70,6 +70,18 @@ flowchart LR
 | CH347F 多功能接口 | UART+SPI+I2C+JTAG 节点显示“28”提示，驱动状态待确认 |
 
 ![拓展坞 USB 设备树：VIA Hub、沁恒 Hub、CH347F 双串口与 Realtek 网卡枚举结果](images/usb-device-enumeration.png)
+
+### USB 3.0 文件传输
+
+样机在 **USB 5 Gbps 链路**下运行稳定。通过拓展坞进行文件复制时，截图中的速度曲线较为平稳，接近完成时显示约 **331 MB/s**；5 Gbps 为 USB 链路速率，331 MB/s 为此次文件复制截图中的传输速度。
+
+![通过 VL822 拓展坞复制文件，截图速度约 331 MB/s](images/usb3-file-transfer.png)
+
+### 千兆以太网链路
+
+Windows 已识别 **Realtek USB GbE Family Controller**，以太网状态显示连接速率为 **1.0 Gbps**，确认网口完成千兆链路协商。
+
+![RTL8153B 网卡的以太网连接状态，协商速率 1.0 Gbps](images/ethernet-1gbps-link.png)
 
 ## PCB 设计
 
