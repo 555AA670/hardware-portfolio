@@ -109,6 +109,12 @@ DevIsOpAtSsPlusOrHigher   : 1
 
 ![通过 VL822 拓展坞复制文件，截图速度约 331 MB/s](images/usb3-file-transfer-redacted.png)
 
+### 隔离侧 USB-A 文件传输
+
+U 盘接入隔离侧 USB-A 后，通过 **CH318T 变压器隔离链路**进行文件复制，截图时进度为 **10%**，传输速度约 **37.2 MB/s**，记录了隔离支路连接实际存储设备时的数据传输表现。
+
+![隔离侧 USB-A 接 U 盘的文件复制，截图速度约 37.2 MB/s，姓名已打码](images/isolated-usba-transfer-redacted.png)
+
 ### 千兆以太网链路
 
 Windows 已识别 **Realtek USB GbE Family Controller**，以太网状态显示连接速率为 **1.0 Gbps**，确认网口完成千兆链路协商。
