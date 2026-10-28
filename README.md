@@ -23,12 +23,13 @@
 
 完成基于 VL822 的四层拓展坞电路设计与 PCB 布局布线，集成 3 路 USB-A 3.0、千兆以太网、隔离 USB-A 与 CH347F 调试接口。
 
-| 方向 | 设计内容 |
+| 方向 | 设计与验证 |
 | --- | --- |
 | 接口扩展 | VL822 P4 的 USB 3.0 / USB 2.0 分别连接网卡与隔离支路 |
 | 隔离设计 | 双 CH318T、网络变压器、2 W 隔离电源与 2 mm 开槽 |
 | PCB 设计 | 四层叠构、90 Ω / 100 Ω 差分阻抗计算与分区布线 |
+| 板级验证 | USB 文件复制截图约 331 MB/s，网口协商 1.0 Gbps，CH347F 双串口枚举 |
 
 **关键词：** VL822 · USB 3.0 · 千兆以太网 · CH318T · CH347F · 四层 PCB · 隔离设计
 
-[查看项目设计 →](projects/high-speed-isolated-dock/README.md)
+[查看项目设计与成果 →](projects/high-speed-isolated-dock/README.md)
