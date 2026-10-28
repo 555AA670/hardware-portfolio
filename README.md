@@ -39,6 +39,12 @@ USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH
 
 [查看项目设计与测试 →](projects/stm32g474-four-switch-buck-boost/README.md)
 
+### [SW3518S 双口快充供电板](projects/sw3518s-fast-charging-board/README.md)
+
+基于 SW3518S 的 USB-A + USB-C 双口快充供电板，尺寸约 31.2 × 57.1 mm，已进行手机和电脑充电测试。
+
+[查看项目与工程 →](projects/sw3518s-fast-charging-board/README.md)
+
 ## PCB Layout 项目
 
 ### [RK3568 + LPDDR4X + MCU 六层 ROS 机器人控制板](projects/rk3568-mcu-ros-control-board/README.md)
