@@ -21,6 +21,8 @@
 
 ![PCB 布线与铜皮视图一](images/pcb-layout-view-1-revised.png)
 
+![PCB 布线与铜皮视图](images/pcb-layout-view-1.png)
+
 ![PCB 布线与铜皮视图二](images/pcb-layout-view-2.png)
 
 ![PCB 布线与铜皮视图三](images/pcb-layout-view-3.png)
