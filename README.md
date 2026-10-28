@@ -11,7 +11,7 @@
 | 方向 | 实现成果 |
 | --- | --- |
 | 硬件设计 | 六层叠构、BGA 扇出、DDR 等长与阻抗设计 |
-| 样机调试 | LPDDR4X 2112 MHz 初始化、memtester 测试通过 |
+| 样机调试 | LPDDR4X 2112 MHz 与 eMMC 初始化、1024 MB × 10 轮内存测试通过 |
 | 图形系统 | Android 12、scrcpy 投屏、3D 游戏运行 |
 | 边缘 AI | RKLLM / Qwen3.5-2B NPU 推理，llama.cpp / Qwen3.5-4B CPU 推理 |
 

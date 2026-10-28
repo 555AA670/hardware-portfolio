@@ -1,0 +1,51 @@
+ch0 ttot10
+ch1 ttot10
+ch2 ttot10
+ch3 ttot10
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F2: 1068MHz
+ch0 ttot12
+ch1 ttot12
+ch2 ttot12
+ch3 ttot12
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F3: 1560MHz
+ch0 ttot14
+ch1 ttot14
+ch2 ttot14
+ch3 ttot14
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F0: 2112MHz
+ch0 ttot16
+ch1 ttot16
+ch2 ttot18
+ch3 ttot16
+stride=0x2, ddr_config=0x0
+hash ch_mask0-1 0x20 0x40, bank_mask0-3 0xa00 0x1400 0x2800 0x0, rank_mask0 0x0
+out
+Boot1 Release Time: Oct 17 2023 17:09:54, version: 1.11
+Emmc IO init.
+Emmc IO init.
+mmc_set_bus_width: 1
+SetEmmcClk: 375000, 2, 64
+mmc_switch index:183, value:0x2
+mmc_switch index:185, value:0x2
+SetEmmcClk: 375000, 2, 64
+mmc_set_bus_width: 8
+SetEmmcClk: 200000000, 0, 3
+Enable PHY CLK: 200000000, timing: 9
+SdmmcInit=2 0
+BootCapSize=100000
+UserCapSize=14910MB
+FwPartOffset=2000 , 100000
+UsbBoot ...150344
+powerOn 152622
