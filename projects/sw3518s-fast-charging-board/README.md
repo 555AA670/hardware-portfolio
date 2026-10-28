@@ -2,6 +2,8 @@
 
 基于 SW3518S 的 USB-A + USB-C 双口快充供电板，PCB 尺寸约 31.2 × 57.1 mm。已完成手机和电脑充电测试。
 
+![供电板实物与 PCB 对照](images/board-and-pcb.jpg)
+
 ![供电板 PCB 总览](images/pcb-overview.png)
 
 ## 项目概览
