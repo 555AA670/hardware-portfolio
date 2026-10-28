@@ -41,9 +41,9 @@ USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH
 
 ## PCB Layout 项目
 
-### [RK3568 + MCU 异构 ROS 六层控制板](projects/rk3568-mcu-ros-control-board/README.md)
+### [RK3568 + LPDDR4X + MCU 六层 ROS 机器人控制板](projects/rk3568-mcu-ros-control-board/README.md)
 
-基于 RK3568 与 MCU 的六层控制板，已完成 PCB 布局布线和打板。当前尚未焊接及上电验证。
+基于 RK3568、LPDDR4X 与 MCU 的六层机器人控制板，面向 ROS 应用。已完成 PCB 布局布线和打板，尚未焊接及上电验证。
 
 [查看 PCB Layout →](projects/rk3568-mcu-ros-control-board/README.md)
 
