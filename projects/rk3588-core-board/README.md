@@ -1,39 +1,42 @@
-# RK3588 核心板
+# RK3588 六层核心板
 
-一块基于 Rockchip RK3588 的自制核心板，采用手工焊接。项目仍在调试中。
+基于 Rockchip RK3588 设计制作的核心板，完成从电路设计、六层 PCB 布局布线到手工焊接和系统启动调试。
 
-![核心板实物](images/web-board.jpg)
+![RK3588 核心板实物](images/web-board.jpg)
 
-## 当前进展
+## 项目概览
 
-- 核心板已启动 Android 12，并通过 USB OTG 连接 ADB 和 scrcpy。
-- 启动日志报告 4 GB LPDDR4X，四个通道各 1 GB；DDR 初始化到 2112 MHz。
-- 已在 USB OTG 直连电脑时使用投屏；经过部分扩展坞时曾出现连接不稳定。
-- 更多外设和长期稳定性仍需测试。
+| 项目 | 内容 |
+| --- | --- |
+| 主处理器 | Rockchip RK3588 |
+| 内存 | 4 GB LPDDR4X，四通道 |
+| PCB | 六层板，采用 0.3/0.4 mm 免费过孔规格 |
+| 层叠结构 | T — GND — PWR — PWR — GND — B |
+| 系统与调试 | Android 12、USB OTG、ADB、scrcpy |
 
-![PCB 布线](images/web-pcb-routing.jpg)
+## PCB 设计
 
-## PCB 设计与制造参数
+采用六层板布局，从顶层到底层依次为 **T — GND — PWR — PWR — GND — B**。PCB 设计涵盖 RK3588、LPDDR4X、高速信号、电源及接口的布局与布线，DDR 信号按照官方要求进行等长设计。
 
-- 六层 PCB；采用 0.3/0.4 mm 免费过孔规格。
-- 层叠采用截图中标注的华秋 06161HA3-1080 结构。阻抗计算包含 50 Ω、40 Ω 单端和 80 Ω 差分；具体线宽、间距和参考层见下图。计算值为设计参考，实际成品以板厂工艺和测试结果为准。
+阻抗计算采用华秋 **06161HA3-1080** 层叠结构，计算参数包括 50 Ω、40 Ω 单端和 80 Ω 差分阻抗。
 
-### 层叠与阻抗计算
+![六层板层叠与阻抗计算](images/stackup-impedance.png)
 
-![六层板层叠及阻抗计算参数](images/stackup-impedance.png)
+### 四层布线展示
 
-### PCB 布线视图
+![布线层视图 1](images/pcb-133316.jpg)
 
-![PCB 布线视图一](images/pcb-133316.jpg)
+![布线层视图 2](images/pcb-133323.jpg)
 
-![PCB 布线视图二](images/pcb-133323.jpg)
+![布线层视图 3](images/pcb-133331.jpg)
 
-![PCB 布线视图三](images/pcb-133331.jpg)
+![布线层视图 4](images/pcb-133339.jpg)
 
-![PCB 布线视图四](images/pcb-133339.jpg)
+## 样机与系统验证
 
-## 文件说明
+- 手工焊接核心板并完成上电调试。
+- LPDDR4X 四通道均完成初始化，启动日志显示总容量为 4 GB，初始化频点为 2112 MHz。
+- 成功启动 Android 12，通过 USB OTG 实现 ADB 连接、scrcpy 投屏和音频转发。
+- 实现通过 OTG 共享电脑网络。
 
-本仓库目前提供项目图片与进展记录。原理图、PCB 工程及固件源码尚未包含在此版本中。
-
-本项目参考 Rockchip 官方资料。第三方软件、固件及资料的版权和许可归其各自权利人所有。
+![核心板 PCB 布线总览](images/web-pcb-routing.jpg)
