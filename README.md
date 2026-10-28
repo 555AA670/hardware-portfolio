@@ -18,3 +18,9 @@
 **关键词：** RK3588 · LPDDR4X · 六层 PCB · 阻抗控制 · Android · RKLLM · llama.cpp
 
 [查看项目设计与成果 →](projects/rk3588-core-board/README.md)
+
+### [高速加隔离拓展坞](projects/high-speed-isolated-dock/README.md)
+
+基于 VL822、RTL8153B-VB-CG、CH318T 和 CH347F 的高速加隔离拓展坞。项目资料与调试记录待补充。
+
+[查看项目 →](projects/high-speed-isolated-dock/README.md)
