@@ -1,0 +1,25 @@
+USB Device Tree Viewer 日志关键字段摘录
+对象：HIKSEMI T9 PRO PSSD
+
+Connection Status        : 0x01 (Device is connected)
+Port Chain               : 2-4-1
+Vendor ID                : 0x152D (JMicron Technology Corp.)
+Product ID               : 0x0583
+Manufacturer String      : "HIKSEMI"
+Product String           : "T9 PRO PSSD"
+USB Version              : 3.2 Gen 2 (aka USB 3.1 - 10 Gbit/s)
+Port maximum Speed       : SuperSpeedPlus 10 GBit/s
+Device maximum Speed     : SuperSpeedPlus 10 GBit/s
+Device Connection Speed  : SuperSpeedPlus 10 GBit/s
+Service                  : UASPStor
+Connection Status        : 0x01 (DeviceConnected)
+ DevIsOpAtSsOrHigher     : 1 (Device is operating at SuperSpeed or higher)
+ DevIsOpAtSsPlusOrHigher : 1 (Device is operating at SuperSpeedPlus or higher)
+Rx.LinkProtocol          : 0x01 (SuperSpeedPlus)
+Rx.LaneSpeedMantissa     : 0x000A (Lane Speed Mantissa is 10)
+Rx.LaneCount             : 0x00 (1 Lane)
+Tx.LinkProtocol          : 0x01 (SuperSpeedPlus)
+Tx.LaneSpeedMantissa     : 0x000A (Lane Speed Mantissa is 10)
+Tx.LaneCount             : 0x00 (1 Lane)
+-> Rx speed is 10 Gbps
+-> Tx speed is 10 Gbps
