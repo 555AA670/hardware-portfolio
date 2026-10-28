@@ -46,3 +46,9 @@ USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH
 基于 RK3568 与 MCU 的六层控制板，已完成 PCB 布局布线和打板。当前尚未焊接及上电验证。
 
 [查看 PCB Layout →](projects/rk3568-mcu-ros-control-board/README.md)
+
+### [K230 + LPDDR4 六层紧凑核心板](projects/k230-lpddr4-flight-core-board/README.md)
+
+45 × 45 mm 六层核心板，采用嘉立创免费工艺，面向飞控应用。
+
+[查看 PCB Layout →](projects/k230-lpddr4-flight-core-board/README.md)
