@@ -17,7 +17,17 @@
 | PCB | 四层板，华秋 04161H05-7628 叠构 |
 | 布线与分区 | 90 Ω / 100 Ω 差分阻抗计算，2 mm 隔离开槽 |
 
-[功能设计](#功能设计) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计)
+[版本说明与设计文件](#版本说明与设计文件) · [功能设计](#功能设计) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计)
+
+## 版本说明与设计文件
+
+**高速 USB-A 连接器选型有误：当前型号不支持 10 Gbps（USB 3.2 Gen 2），复刻或改版时需购买明确标称支持 10 Gbps 的型号，并核对封装和焊盘。** 此处指非隔离侧的高速 USB-A，隔离侧 USB-A 为 USB 2.0。
+
+**CH347F 实际功能尚未验证。** 现有记录仅包括设备和双串口枚举，串口收发、SPI、I2C、JTAG 等功能仍待测试。
+
+[下载 PCB 与原理图源文件包](hardware/vl822-dock-pcb-schematics.zip?raw=true)
+
+文件包包含 1 份 PCB、4 张原理图、现有本地符号库和封装库，以及上述版本说明。源文件保留当前设计，连接器问题尚未在文件中修正。
 
 ## 功能设计
 
@@ -65,15 +75,15 @@ flowchart LR
 | --- | --- |
 | USB Hub | VIA Labs USB 2.1 Hub、USB 3.1 Gen 1 Hub 均被识别 |
 | 隔离 USB 链路 | 枚举出两级 Nanjing QinHeng USB 2.0 Hub 及下游 CH347F |
-| CH347F 双串口 | SERIAL-A：COM19；SERIAL-B：COM16 |
+| CH347F 双串口 | 枚举为 SERIAL-A：COM19、SERIAL-B：COM16；收发功能未验证 |
 | 以太网设备 | Realtek USB GbE Family Controller 被识别 |
-| CH347F 多功能接口 | UART+SPI+I2C+JTAG 节点显示“28”提示，驱动状态待确认 |
+| CH347F 多功能接口 | 尚未验证；UART+SPI+I2C+JTAG 节点显示“28”提示，驱动状态待确认 |
 
 ![拓展坞 USB 设备树：VIA Hub、沁恒 Hub、CH347F 双串口与 Realtek 网卡枚举结果](images/usb-device-enumeration.png)
 
 ### USB 10 Gbps 链路协商
 
-将 **HIKSEMI T9 PRO PSSD** 接入自制拓展坞后，USB Device Tree Viewer 记录当前连接为 **SuperSpeedPlus 10 Gbps**。连接信息同时给出 Rx、Tx 均为单通道 10 Gbps，确认此次设备连接已完成 USB 3.2 Gen 2 速率协商。
+将 **HIKSEMI T9 PRO PSSD** 接入自制拓展坞后，USB Device Tree Viewer 记录当前连接为 **SuperSpeedPlus 10 Gbps**。连接信息同时给出 Rx、Tx 均为单通道 10 Gbps，确认此次设备连接已完成 USB 3.2 Gen 2 速率协商。 **此记录为一次连接的协商结果；当前 USB-A 连接器存在上述选型问题，改版仍需更换为支持 10 Gbps 的型号。**
 
 | 验证内容 | 日志记录 |
 | --- | --- |
