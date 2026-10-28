@@ -1,0 +1,32 @@
+{
+  "cases": 2313,
+  "failures": 60,
+  "minInnerPM_deg": -98.475746098017837,
+  "minInnerGM_dB": 4.8373771428723229,
+  "minOuterPM_deg": 79.909203976467481,
+  "minOuterGM_dB": 16.024744843601646,
+  "maxInnerPoleRadius": 0.99869496586913753,
+  "maxOuterPoleRadius": 0.9991888672036684,
+  "firstFailure": {
+    "plant": [
+      1.05E-5,
+      0.00062999999999999992,
+      20,
+      0.003,
+      45,
+      0.9,
+      1.9999999999999998E-5,
+      3
+    ],
+    "esr": 0.003,
+    "sensorGain": 0.9,
+    "innerPM": 101.46807236767292,
+    "innerGM": 7.5038114705517591,
+    "outerPM": 89.291478851097779,
+    "outerGM": 18.38920155539439,
+    "innerRadius": 0.99787448655985056,
+    "outerRadius": 0.99841676398158608
+  },
+  "passed": false,
+  "scope": "CCM linear model; ESR3/10/40mohm, port current gain0.9/1/1.1, original257plants, one extra20us inner latency and extra200us outer publication; not measured hardware"
+}

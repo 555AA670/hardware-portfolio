@@ -1,0 +1,8 @@
+{
+  "checks": 63,
+  "FirmwareId": "CLEANBUCK36-CASCADE-20261027-v7",
+  "HexSHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+  "BuildChecksOnly": true,
+  "PerformsFlashing": false,
+  "SendsPowerStart": false
+}

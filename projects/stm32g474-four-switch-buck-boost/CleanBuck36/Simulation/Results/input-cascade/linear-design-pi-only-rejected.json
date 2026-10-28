@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "innerSample_s": 2E-5,
+  "outerSample_s": 0.0001,
+  "plantCases": 257,
+  "testedCurrentControllers": 960,
+  "passingCurrentControllers": 0,
+  "currentCandidates": [],
+  "hardwareValidated": false,
+  "flashed": false,
+  "sensor": "Average input PORT current, not IL"
+}

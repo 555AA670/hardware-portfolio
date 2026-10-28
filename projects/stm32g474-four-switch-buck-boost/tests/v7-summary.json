@@ -1,0 +1,16 @@
+{
+  "StartAt": "2026-10-27T13:59:44.397956+08:00",
+  "FirstFaultAt": "2026-10-27T14:00:50.7494114+08:00",
+  "FirstFaultText": "TEST DONE fw=CLEANBUCK36-CASCADE-20261027-v7 fault=1 OEN=000 startUsed=1",
+  "VoutMaxTelemetry": 36.01,
+  "IoutMaxTelemetry": 3605.0,
+  "ActualDurationSeconds": 66.3514554,
+  "FaultWindowMaxNtc0": 51.2,
+  "FaultWindowMaxNtc1": 54.0,
+  "PrefixOnlyNtc0MaxTelemetry": 45.9,
+  "PrefixOnlyNtc1MaxTelemetry": 47.1,
+  "FirmwareId": "CLEANBUCK36-CASCADE-20261027-v7",
+  "StopReason": "F_TEMP / code1",
+  "GateOutputsAfterStop": "OEN=000",
+  "ContinuousThermalRatingValidated": false
+}

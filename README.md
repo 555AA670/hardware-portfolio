@@ -28,3 +28,13 @@
 USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH347F 功能尚未验证。项目页提供 PCB 和原理图下载。
 
 [查看项目 →](projects/high-speed-isolated-dock/README.md)
+
+### [STM32G474 四开关 Buck-Boost 数字电源](projects/stm32g474-four-switch-buck-boost/README.md)
+
+基于 STM32G474 HRTIM 的四开关数字电源，采用 200 kHz PWM、电压外环与平均输入电流内环，配套 C# 串口上位机和 C / MATLAB 仿真。
+
+完成 Buck 模式 48 V → 36 V、10 Ω 负载、约 130 W 测试，运行 66.35 秒后温度保护停机。项目包含源码、v7 固件、局部原理图和测试日志。
+
+**关键词：** STM32G474 · HRTIM · 四开关 Buck-Boost · 双环控制 · MATLAB · C#
+
+[查看项目设计与测试 →](projects/stm32g474-four-switch-buck-boost/README.md)

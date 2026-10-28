@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "relativeLinksChecked": 41,
+  "brokenLinks": 0,
+  "keilSourceFilesResolved": 23,
+  "controlAndHardwareSourceFilesIdentical": 6,
+  "relocatedFirmwareRebuild": "0 errors, 0 warnings; identical v7 HEX",
+  "HexSHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+  "firmwareChecks": 63,
+  "monitorBuild": "0 errors, 0 warnings",
+  "manualStartPolicyChecks": 548,
+  "compiledFormApiChecks": 12,
+  "nativeInvariantChecks": 4955164,
+  "nativeCases": 31,
+  "linearCases": 2313,
+  "linearFailures": 0,
+  "floatImpulsePass": true,
+  "intraCycleBoundPass": true,
+  "sourceScope": "Original package offline build results retained; project imported into hardware-portfolio.",
+  "HardwareStarted": false,
+  "FirmwareFlashed": false,
+  "RemotePublished": true,
+  "licensePending": true,
+  "hardwareEDAComplete": false,
+  "publicationChecks": {
+    "date": "2026-10-28",
+    "originalManifestFilesVerified": 196,
+    "relativeLinksChecked": 45,
+    "keilSourceFilesResolved": 23,
+    "firmwareHashUnchanged": true,
+    "firmwareRebuiltDuringImport": false
+  }
+}

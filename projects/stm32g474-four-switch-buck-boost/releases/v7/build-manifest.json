@@ -1,0 +1,133 @@
+{
+  "Profile": "CLEANBUCK36_BENCH",
+  "Defines": "USE_HAL_DRIVER,STM32G474xx",
+  "ControllerOptimization": "-O3 -Otime (no fast math)",
+  "Hex": "CLEANBUCK36_BENCH.hex",
+  "SHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+  "BuiltAt": "2026-10-27T13:57:43.4354914+08:00",
+  "Log": "not included: local compiler log",
+  "Sources": [
+    {
+      "SHA256": "FCA5F269994125FEC4252ED2352048818173319FEE1D4B359EC1556B65F64A38",
+      "File": "../Core/Src/main.c"
+    },
+    {
+      "SHA256": "3CC243362E0E86E0AA30919F12DC7C4DFF3E55C9012CB4864E55B0BB91D41822",
+      "File": "../Core/Src/board.c"
+    },
+    {
+      "SHA256": "A7A96114D57B099ED19BFDEB3861E5CD616B7BBE8AF8E3E356A1231ABFAED112",
+      "File": "../../Simulation/CurrentCascade/cascade_control.c"
+    },
+    {
+      "SHA256": "81CDE175FC24C8322A3D483D8B754FE2A1AAE85D54F34119309157EA859E5826",
+      "File": "startup_stm32g474xx.s"
+    },
+    {
+      "SHA256": "B03E123FA56DE3840A1C5AD0CA79EB6EE547FB836A53B31A3B89FB40EE57F4B7",
+      "File": "../Core/Src/system_stm32g4xx.c"
+    },
+    {
+      "SHA256": "E86B738668581F6E1A2ACF59010F5ECEB236F94A0DC6A1A8554DDF24A6437BD4",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c"
+    },
+    {
+      "SHA256": "96A7C255246AD457497D2AC4018D00679761B8ADEBA8E196770AD22391DCB474",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c"
+    },
+    {
+      "SHA256": "446B3B7319A22F118526A4665DA8971BA48C0C31634A32A2215C6AA8B8A9BA3E",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c"
+    },
+    {
+      "SHA256": "E82F43FD5C78801D126B86EA083853D6EA263935D77AE0B3DA7D50FEA4806AE4",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c"
+    },
+    {
+      "SHA256": "7894F8CF4A3BD8B214FC826CBB93AA9A20596CFC3C45760F6F775D79E28CBDA4",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c"
+    },
+    {
+      "SHA256": "FAA9D7FFA04C9072035273FDF1DEDBFEE1886A4F58D29F5D0B075263EF06BC30",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c"
+    },
+    {
+      "SHA256": "5D5D66378381D9DB97BFAE8077818DE467344119516C00D205132786B0B67279",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c"
+    },
+    {
+      "SHA256": "7BFF46E900A1BA30375A98DC58369B9E4E0AAB2EE6EA30E5D70E1ECE449D5CAE",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c"
+    },
+    {
+      "SHA256": "7298AF1A9125A3295BDFADBA3AFD712F607D15D360A5D16DE12369E41B380FE4",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c"
+    },
+    {
+      "SHA256": "AC4D019E71CC5D9DC02984F16C42B97C811A4AAAD12D46532F9ACA3CCCDF1A26",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c"
+    },
+    {
+      "SHA256": "434370A76AC8A2E17B5DF05FF97EE5382600A9D3D022F97588CB41F9693A3377",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c"
+    },
+    {
+      "SHA256": "ACA1A24FC2C9F4F5DA3D39149A150CC5F444F951A50D98FEB6D9B69443E18D5C",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c"
+    },
+    {
+      "SHA256": "EB1687B291E66FDF7A5A4FB8496F5D411BE6C86EDD3D75147F64E9E19BC192B3",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c"
+    },
+    {
+      "SHA256": "68F8F023A5C516A5D0BA9AA2459B8441FE3F187D7983C18960FA6F37BCED4B7B",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c"
+    },
+    {
+      "SHA256": "750BBA8C3AF33A2C5EA5588681BAFF79E028BAEC3080473AE550F98A79D3E57C",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c"
+    },
+    {
+      "SHA256": "A8303B059435DFE1E6E6A558CA1B1441C875156058D7CF9CC49A21264409F7AF",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c"
+    },
+    {
+      "SHA256": "764627455C7CCFD157B45FE7BD5EFFE78D1BC1C8F99AF041F39E1E1E7197C3B6",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c"
+    },
+    {
+      "SHA256": "9769AE02117154A216EF732910B07BC4EB4C1DF1ED2AE1C66629E9F3BCB725F0",
+      "File": "../../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c"
+    },
+    {
+      "SHA256": "DA8387A00DC5D1488C38615455675979FAED387BF1FC35B235C690EE6BE4EFC0",
+      "File": "../Core/Inc/bench_config.h"
+    },
+    {
+      "SHA256": "B31C54972FEB575E0EA35F84CEAA56C940D07F7B90BC47B3B9C8B3FD015D6282",
+      "File": "../Core/Inc/board.h"
+    },
+    {
+      "SHA256": "C16AA8EF1F6FDB532EF540A2934D290585A2606432D20F5C6C987CC6B6288345",
+      "File": "../Core/Inc/control.h"
+    },
+    {
+      "SHA256": "B444226A1DCAF8F7858CCCE2C97245DB3CD70AF17DED97A05D9E36E003F416BD",
+      "File": "../Core/Inc/stm32g4xx_hal_conf.h"
+    },
+    {
+      "SHA256": "5ACFEF5A43285D9CD58F535E9CE2327CAB63355AD457ECD39C00812F236D84AE",
+      "File": "../../Simulation/CurrentCascade/cascade_control.h"
+    },
+    {
+      "SHA256": "0F9899865A1E8F55001857AA9710E18BD55885E7C980B683225B0893059FB5A7",
+      "File": "../../Simulation/CurrentCascade/cascade_coefficients.h"
+    },
+    {
+      "SHA256": "9A90980FBD5C9B0ADFFB61A3128925D365BA11CBD731B4525593455658B4057F",
+      "File": "stm32g474xx_flash.sct"
+    }
+  ],
+  "Flashed": false,
+  "DistributionNote": "Original v7 tested image; Sources paths relative to CleanBuck36/FirmwareCascade/MDK-ARM. No local absolute paths."
+}

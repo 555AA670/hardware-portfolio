@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "journalSources": [
+    "CleanBuck36/FirmwareCascade/v7-human-run-log.json",
+    "CleanBuck36/FirmwareCascade/v7-human-run-log-page2.json",
+    "CleanBuck36/FirmwareCascade/v7-temperature-stop-window.json"
+  ],
+  "journalEntries": 2000,
+  "telemetrySamples": 499,
+  "transformations": [
+    "Deduplicate by Sequence; retain original Text/At/Kind.",
+    "Omit host filePath and hardware debugger serial number.",
+    "Telemetry values parsed without smoothing/resampling; serial interval is not a switching waveform."
+  ],
+  "originalHexSHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+  "OriginalFilesModified": false
+}

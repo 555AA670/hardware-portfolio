@@ -1,0 +1,20 @@
+# Generated artifacts; tested v7 release image is explicitly retained.
+**/bin/
+**/obj/
+**/buildcheck/
+**/Build/
+**/Logs/
+**/slprj/
+*.slxc
+*.obj
+*.o
+*.axf
+*.map
+*.disasm
+*.exe
+*.dll
+*.pdb
+*.uvguix.*
+*.uvoptx
+__pycache__/
+build/

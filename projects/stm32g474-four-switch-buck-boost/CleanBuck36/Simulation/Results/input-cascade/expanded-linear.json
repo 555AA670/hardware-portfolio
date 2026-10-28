@@ -1,0 +1,13 @@
+{
+  "cases": 2313,
+  "failures": 0,
+  "minInnerPM_deg": 54.851288858653866,
+  "minInnerGM_dB": 11.501582931657504,
+  "minOuterPM_deg": 75.220802000831512,
+  "minOuterGM_dB": 13.741730179976628,
+  "maxInnerPoleRadius": 0.99866550058856873,
+  "maxOuterPoleRadius": 0.9991889596439032,
+  "firstFailure": [],
+  "passed": true,
+  "scope": "CCM linear model; ESR3/10/40mohm, port current gain0.9/1/1.1, original257plants, one extra20us inner latency and extra200us outer publication; not measured hardware"
+}

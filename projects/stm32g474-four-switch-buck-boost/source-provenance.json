@@ -1,0 +1,1223 @@
+{
+  "snapshotDate": "2026-10-28",
+  "sourceBranch": "codex/buck-clean-baseline-20261021",
+  "copiedFiles": [
+    {
+      "source": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h",
+      "path": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h",
+      "sourceSHA256": "686E5A833700E137658719A93C9254BC5E530B6248067396C68DCB5573C447A3",
+      "exportedSHA256": "686E5A833700E137658719A93C9254BC5E530B6248067396C68DCB5573C447A3",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h",
+      "path": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h",
+      "sourceSHA256": "493603C55AF538BC431713B4F9880B5E242447CEA232CA7459D3CA59C71DD48D",
+      "exportedSHA256": "493603C55AF538BC431713B4F9880B5E242447CEA232CA7459D3CA59C71DD48D",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h",
+      "path": "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h",
+      "sourceSHA256": "36304C07E9CEE84064015EBD7AE517AF6F466C466C1BBF5E342C57A296601DB2",
+      "exportedSHA256": "36304C07E9CEE84064015EBD7AE517AF6F466C466C1BBF5E342C57A296601DB2",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt",
+      "path": "Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt",
+      "sourceSHA256": "135FB2D86E9ECDF6824CC3BBA21C72B8E380C07B055FBEBB6B995463EB609BAF",
+      "exportedSHA256": "135FB2D86E9ECDF6824CC3BBA21C72B8E380C07B055FBEBB6B995463EB609BAF",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/DSP/Include/arm_math.h",
+      "path": "Drivers/CMSIS/DSP/Include/arm_math.h",
+      "sourceSHA256": "B6F64B92FE587A510D90040F2E7391BFA62848C1258AD8542A4A60336B5D7F8F",
+      "exportedSHA256": "B6F64B92FE587A510D90040F2E7391BFA62848C1258AD8542A4A60336B5D7F8F",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_armcc.h",
+      "path": "Drivers/CMSIS/Include/cmsis_armcc.h",
+      "sourceSHA256": "E6BA28E21B5A3CD44D4E2D2981E37568F419E5DF693C8B58E87674FBDF28DEEB",
+      "exportedSHA256": "E6BA28E21B5A3CD44D4E2D2981E37568F419E5DF693C8B58E87674FBDF28DEEB",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_armclang.h",
+      "path": "Drivers/CMSIS/Include/cmsis_armclang.h",
+      "sourceSHA256": "99B25AB977F383840994CB456AE3F259A5C9B036CB6A0D8C003B7CBBA4F6123A",
+      "exportedSHA256": "99B25AB977F383840994CB456AE3F259A5C9B036CB6A0D8C003B7CBBA4F6123A",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "path": "Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "sourceSHA256": "31622280A8296B67BDACE0539710A3CFBF828B71F88BD0D5CCC5D7D291AB3A9F",
+      "exportedSHA256": "31622280A8296B67BDACE0539710A3CFBF828B71F88BD0D5CCC5D7D291AB3A9F",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_compiler.h",
+      "path": "Drivers/CMSIS/Include/cmsis_compiler.h",
+      "sourceSHA256": "869640702D811C4C63ABB52206715C891A93FD03BE954DF5AD40D378355AF3D6",
+      "exportedSHA256": "869640702D811C4C63ABB52206715C891A93FD03BE954DF5AD40D378355AF3D6",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_gcc.h",
+      "path": "Drivers/CMSIS/Include/cmsis_gcc.h",
+      "sourceSHA256": "0837F98E834D6A529854C8C86336E9D99EB8E379BF1DEB964858D7863950F862",
+      "exportedSHA256": "0837F98E834D6A529854C8C86336E9D99EB8E379BF1DEB964858D7863950F862",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "path": "Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "sourceSHA256": "A40C60D322903D410FE892C2ECCB92D82D8876DCE605FBB4CB563D52182AEB16",
+      "exportedSHA256": "A40C60D322903D410FE892C2ECCB92D82D8876DCE605FBB4CB563D52182AEB16",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/cmsis_version.h",
+      "path": "Drivers/CMSIS/Include/cmsis_version.h",
+      "sourceSHA256": "DD03AF200B23BDD8D091FFA7BEB3D1A2C4FC5611557567BD57EC613205F6DF1F",
+      "exportedSHA256": "DD03AF200B23BDD8D091FFA7BEB3D1A2C4FC5611557567BD57EC613205F6DF1F",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_armv81mml.h",
+      "path": "Drivers/CMSIS/Include/core_armv81mml.h",
+      "sourceSHA256": "FB6FF226BC14B8730B3D5C5E49A32514DE811B485DC3F0543045FFFFD8787F85",
+      "exportedSHA256": "FB6FF226BC14B8730B3D5C5E49A32514DE811B485DC3F0543045FFFFD8787F85",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_armv8mbl.h",
+      "path": "Drivers/CMSIS/Include/core_armv8mbl.h",
+      "sourceSHA256": "319FD8C698098A16F2775FE292B734C91AAEEC3FEEE418E515CC3A1761EDEC76",
+      "exportedSHA256": "319FD8C698098A16F2775FE292B734C91AAEEC3FEEE418E515CC3A1761EDEC76",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_armv8mml.h",
+      "path": "Drivers/CMSIS/Include/core_armv8mml.h",
+      "sourceSHA256": "1778FD691A0768DBEE4FBE537B3CC4D03FCFAB4AB9F60E31EC52605364F3DD36",
+      "exportedSHA256": "1778FD691A0768DBEE4FBE537B3CC4D03FCFAB4AB9F60E31EC52605364F3DD36",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm0.h",
+      "path": "Drivers/CMSIS/Include/core_cm0.h",
+      "sourceSHA256": "20300B57C02D5B7B34C7B58BF7009E81713A60F44CA2A338F67CB4B473F4F3C4",
+      "exportedSHA256": "20300B57C02D5B7B34C7B58BF7009E81713A60F44CA2A338F67CB4B473F4F3C4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm0plus.h",
+      "path": "Drivers/CMSIS/Include/core_cm0plus.h",
+      "sourceSHA256": "4B79D5BF9F9165DDAE727C9F035F82FB0EA85CEEE2587B503D5D7BCD172D2DF9",
+      "exportedSHA256": "4B79D5BF9F9165DDAE727C9F035F82FB0EA85CEEE2587B503D5D7BCD172D2DF9",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm1.h",
+      "path": "Drivers/CMSIS/Include/core_cm1.h",
+      "sourceSHA256": "C243C4AFB291068FE7078D2911B2F0001E78A4D5466C26728611B06147D65C2B",
+      "exportedSHA256": "C243C4AFB291068FE7078D2911B2F0001E78A4D5466C26728611B06147D65C2B",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm23.h",
+      "path": "Drivers/CMSIS/Include/core_cm23.h",
+      "sourceSHA256": "009F762A79B693F7F82EFC9298A33A14765C06DBD4CB2BF5C9B4FFBB6F7E56FF",
+      "exportedSHA256": "009F762A79B693F7F82EFC9298A33A14765C06DBD4CB2BF5C9B4FFBB6F7E56FF",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm3.h",
+      "path": "Drivers/CMSIS/Include/core_cm3.h",
+      "sourceSHA256": "EFEFEF85CD419652F5B7C1074EDE2F5C24DA943528C5156DE8D2A194DE1888DC",
+      "exportedSHA256": "EFEFEF85CD419652F5B7C1074EDE2F5C24DA943528C5156DE8D2A194DE1888DC",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm33.h",
+      "path": "Drivers/CMSIS/Include/core_cm33.h",
+      "sourceSHA256": "3E50058F0D08B8D8897FEC65E636E2F96635D1F8BCEF37D2DEC289E834539548",
+      "exportedSHA256": "3E50058F0D08B8D8897FEC65E636E2F96635D1F8BCEF37D2DEC289E834539548",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm35p.h",
+      "path": "Drivers/CMSIS/Include/core_cm35p.h",
+      "sourceSHA256": "32DBDE7EDB75784B23411639FA8CB8ECD3A3DA26F923530B9AE606E010FCAE57",
+      "exportedSHA256": "32DBDE7EDB75784B23411639FA8CB8ECD3A3DA26F923530B9AE606E010FCAE57",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm4.h",
+      "path": "Drivers/CMSIS/Include/core_cm4.h",
+      "sourceSHA256": "CDC0C5AB9BA0F24C065E891D26C3E686ED04106700CE6A572CC7E83E71965B59",
+      "exportedSHA256": "CDC0C5AB9BA0F24C065E891D26C3E686ED04106700CE6A572CC7E83E71965B59",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_cm7.h",
+      "path": "Drivers/CMSIS/Include/core_cm7.h",
+      "sourceSHA256": "FF629C5BF98A8CAADF360D0BCC48E1042FEFA19995F7B64855D5E81E4C2E81CB",
+      "exportedSHA256": "FF629C5BF98A8CAADF360D0BCC48E1042FEFA19995F7B64855D5E81E4C2E81CB",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_sc000.h",
+      "path": "Drivers/CMSIS/Include/core_sc000.h",
+      "sourceSHA256": "E306205844323C8FE4CC3E5433C91ED34D9D5055ED11ECEEF03401FDFB0C3600",
+      "exportedSHA256": "E306205844323C8FE4CC3E5433C91ED34D9D5055ED11ECEEF03401FDFB0C3600",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/core_sc300.h",
+      "path": "Drivers/CMSIS/Include/core_sc300.h",
+      "sourceSHA256": "CDDD97BB6172B5CDAD96A48445124A6D97A449546F5617E48F03847CBC4A09A4",
+      "exportedSHA256": "CDDD97BB6172B5CDAD96A48445124A6D97A449546F5617E48F03847CBC4A09A4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/mpu_armv7.h",
+      "path": "Drivers/CMSIS/Include/mpu_armv7.h",
+      "sourceSHA256": "E504A7D47DFDB3D61DFAE3CF08D27BA9BC69AA4B2B81CA568EFDAFD65D6ABDCC",
+      "exportedSHA256": "E504A7D47DFDB3D61DFAE3CF08D27BA9BC69AA4B2B81CA568EFDAFD65D6ABDCC",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/mpu_armv8.h",
+      "path": "Drivers/CMSIS/Include/mpu_armv8.h",
+      "sourceSHA256": "95A05E406C38CB770621F07AC066B8C89B90874A50559EC9B10C9587B6049503",
+      "exportedSHA256": "95A05E406C38CB770621F07AC066B8C89B90874A50559EC9B10C9587B6049503",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/Include/tz_context.h",
+      "path": "Drivers/CMSIS/Include/tz_context.h",
+      "sourceSHA256": "7FCC21FC190F6FD970390E9CAAA6A86D72FD10F9EDF4EFAB36F12AECF1A8BAA0",
+      "exportedSHA256": "7FCC21FC190F6FD970390E9CAAA6A86D72FD10F9EDF4EFAB36F12AECF1A8BAA0",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/CMSIS/LICENSE.txt",
+      "path": "Drivers/CMSIS/LICENSE.txt",
+      "sourceSHA256": "E03BA41D7FAB20700769FE4118BAB50D800CB74F990353A05D2F5FFF1C228363",
+      "exportedSHA256": "E03BA41D7FAB20700769FE4118BAB50D800CB74F990353A05D2F5FFF1C228363",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "sourceSHA256": "97A63CD0D7E27F692D92F475179EA949751F790A08B7D80FB5F611792BE98236",
+      "exportedSHA256": "97A63CD0D7E27F692D92F475179EA949751F790A08B7D80FB5F611792BE98236",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h",
+      "sourceSHA256": "E9C236731BBD4E6095C3468ED41578965C9C7CFD7CDFEBACCE74493B8666BB01",
+      "exportedSHA256": "E9C236731BBD4E6095C3468ED41578965C9C7CFD7CDFEBACCE74493B8666BB01",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h",
+      "sourceSHA256": "C2D04701E7289873D3EF635CC01BFEF219E417F98B626FAAB2C72295BB49B16C",
+      "exportedSHA256": "C2D04701E7289873D3EF635CC01BFEF219E417F98B626FAAB2C72295BB49B16C",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h",
+      "sourceSHA256": "89BC6F7724BB55890BC1BC3E1F37B13997E4926A3656AB1B8E0B255A78EB2E71",
+      "exportedSHA256": "89BC6F7724BB55890BC1BC3E1F37B13997E4926A3656AB1B8E0B255A78EB2E71",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h",
+      "sourceSHA256": "49A4F194AC0AE566E9C8F4C13660BA308872774BF4F55D188002E319ED602168",
+      "exportedSHA256": "49A4F194AC0AE566E9C8F4C13660BA308872774BF4F55D188002E319ED602168",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h",
+      "sourceSHA256": "ADCB12D4EEB391241481A75F738F81DC7C186ABE0DED173DA3A1191803658EB7",
+      "exportedSHA256": "ADCB12D4EEB391241481A75F738F81DC7C186ABE0DED173DA3A1191803658EB7",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h",
+      "sourceSHA256": "3F98E441401E895E70367809B7B2B2EC54D644ABFC78D405BF8FB962BB7C9BD1",
+      "exportedSHA256": "3F98E441401E895E70367809B7B2B2EC54D644ABFC78D405BF8FB962BB7C9BD1",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h",
+      "sourceSHA256": "38693D56ABA90B7BB6FACAD83FD186EABD82A765BE59877771F8444FBFB00520",
+      "exportedSHA256": "38693D56ABA90B7BB6FACAD83FD186EABD82A765BE59877771F8444FBFB00520",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h",
+      "sourceSHA256": "67098386FCDC433F65831A0C70AC996D4E74C56AE1BC05393485B9D499239C09",
+      "exportedSHA256": "67098386FCDC433F65831A0C70AC996D4E74C56AE1BC05393485B9D499239C09",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h",
+      "sourceSHA256": "7BCCE9A12E02DE94E23343E696919874D5B7288FBB33E8E837B193626E49D14D",
+      "exportedSHA256": "7BCCE9A12E02DE94E23343E696919874D5B7288FBB33E8E837B193626E49D14D",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h",
+      "sourceSHA256": "6857115967B5B929054FD9416F2F65237559201D9ED2D4DAD63088B5AA72FE9F",
+      "exportedSHA256": "6857115967B5B929054FD9416F2F65237559201D9ED2D4DAD63088B5AA72FE9F",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h",
+      "sourceSHA256": "59E2F2D847960B24DAF76546B91FBD6B432B9883F521633CFD1F6E66F43C576A",
+      "exportedSHA256": "59E2F2D847960B24DAF76546B91FBD6B432B9883F521633CFD1F6E66F43C576A",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h",
+      "sourceSHA256": "21A4B96FCF61957C5C651698AF760EC4C6FF8388B420B54260018216F01D5A79",
+      "exportedSHA256": "21A4B96FCF61957C5C651698AF760EC4C6FF8388B420B54260018216F01D5A79",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h",
+      "sourceSHA256": "D790A2918FD3919AF7442EDF8A5B4BC28F0410BF6197BFD879266B8C554DA9C2",
+      "exportedSHA256": "D790A2918FD3919AF7442EDF8A5B4BC28F0410BF6197BFD879266B8C554DA9C2",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_hrtim.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_hrtim.h",
+      "sourceSHA256": "3B599547D1B7937188A14B84274E7EAB675011A4128183AEC19CD00475AB5811",
+      "exportedSHA256": "3B599547D1B7937188A14B84274E7EAB675011A4128183AEC19CD00475AB5811",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h",
+      "sourceSHA256": "132BDFC03C4360438E12B32B45672EBB4E0C7675A2074C06BBD0A121A7EFD2B9",
+      "exportedSHA256": "132BDFC03C4360438E12B32B45672EBB4E0C7675A2074C06BBD0A121A7EFD2B9",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h",
+      "sourceSHA256": "1E6A579FEA6E1673A799B3C6103661DB842DCD1126E5E74834E2D62181BDE518",
+      "exportedSHA256": "1E6A579FEA6E1673A799B3C6103661DB842DCD1126E5E74834E2D62181BDE518",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h",
+      "sourceSHA256": "E1E829E43FF629948890C920268592B47A7A9E06CCEB86B6C6E9F6E49FD469A2",
+      "exportedSHA256": "E1E829E43FF629948890C920268592B47A7A9E06CCEB86B6C6E9F6E49FD469A2",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h",
+      "sourceSHA256": "9056E7522C2600B29E985E7D6EF1814D5408FFFB700803A11096BBBA97AD3A5D",
+      "exportedSHA256": "9056E7522C2600B29E985E7D6EF1814D5408FFFB700803A11096BBBA97AD3A5D",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h",
+      "sourceSHA256": "09A0C7E9F65376A43B58C6D3B5A023CF8829549F960070ACAEDB2D8DFB6216AC",
+      "exportedSHA256": "09A0C7E9F65376A43B58C6D3B5A023CF8829549F960070ACAEDB2D8DFB6216AC",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h",
+      "sourceSHA256": "4243DE07FB90395212F436EC747BD7D91198E47437BD8D8C117A7D9E14061A85",
+      "exportedSHA256": "4243DE07FB90395212F436EC747BD7D91198E47437BD8D8C117A7D9E14061A85",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h",
+      "sourceSHA256": "C76242A6B0786D4F4F9F8C1B534350702CBF98B154F654D4B53D0684E92493A9",
+      "exportedSHA256": "C76242A6B0786D4F4F9F8C1B534350702CBF98B154F654D4B53D0684E92493A9",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h",
+      "sourceSHA256": "44AFB6CA13072671E1E4389800D28B3A8BE922825E78481B911CBB3702F0C231",
+      "exportedSHA256": "44AFB6CA13072671E1E4389800D28B3A8BE922825E78481B911CBB3702F0C231",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h",
+      "sourceSHA256": "0D8090FD47C74EF211B3DDB553F634A8B382AF8873CCAA5FAF4801E713E4B984",
+      "exportedSHA256": "0D8090FD47C74EF211B3DDB553F634A8B382AF8873CCAA5FAF4801E713E4B984",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h",
+      "sourceSHA256": "C2B17DED704016F571465838BEE2A618C6A097B8935A367A7B75F8C84EEA071E",
+      "exportedSHA256": "C2B17DED704016F571465838BEE2A618C6A097B8935A367A7B75F8C84EEA071E",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h",
+      "sourceSHA256": "6B798AAF2E014BFB74DA4837ECDF0A4A6F47B43F270E8CF4B0E93A8129DD1C50",
+      "exportedSHA256": "6B798AAF2E014BFB74DA4837ECDF0A4A6F47B43F270E8CF4B0E93A8129DD1C50",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h",
+      "sourceSHA256": "AE7FA0016736254D0BEF8527893AC93BBE5FF6A740AAE7438431AC65DC6A0D0C",
+      "exportedSHA256": "AE7FA0016736254D0BEF8527893AC93BBE5FF6A740AAE7438431AC65DC6A0D0C",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h",
+      "sourceSHA256": "466423ACCC1C07A5FD3612B9CCB9B159184829B3AF8A027A5F4AAAA174346F01",
+      "exportedSHA256": "466423ACCC1C07A5FD3612B9CCB9B159184829B3AF8A027A5F4AAAA174346F01",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h",
+      "sourceSHA256": "1D47EDAACAA6F45101AE9EB1F3403F03C3DAA9C14FC79DB9D751D0E3CAA45B2D",
+      "exportedSHA256": "1D47EDAACAA6F45101AE9EB1F3403F03C3DAA9C14FC79DB9D751D0E3CAA45B2D",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h",
+      "sourceSHA256": "BA6FF92D9CDAA69303ABD8439B06DC32468C188BCFC65499A2A8DC702A291982",
+      "exportedSHA256": "BA6FF92D9CDAA69303ABD8439B06DC32468C188BCFC65499A2A8DC702A291982",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h",
+      "sourceSHA256": "BD54A7974FE8497DE2138AE290B913D2B0C6E138D3272263622BC7A3F25FEBE6",
+      "exportedSHA256": "BD54A7974FE8497DE2138AE290B913D2B0C6E138D3272263622BC7A3F25FEBE6",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h",
+      "sourceSHA256": "A0CA093590E36EA19B9EF168CFF1ED4973ECCDC4A76661D8903264A3CACE3BB5",
+      "exportedSHA256": "A0CA093590E36EA19B9EF168CFF1ED4973ECCDC4A76661D8903264A3CACE3BB5",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h",
+      "sourceSHA256": "1983EB94D3EDCB11AEE1D416A0EE823F7F8B52C3A6888408B52ACD4A32435DF6",
+      "exportedSHA256": "1983EB94D3EDCB11AEE1D416A0EE823F7F8B52C3A6888408B52ACD4A32435DF6",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/LICENSE.txt",
+      "path": "Drivers/STM32G4xx_HAL_Driver/LICENSE.txt",
+      "sourceSHA256": "D5A162F3EAF2B7B6762F00700017CAE5695EBBDCE7932FEAD8316448BAAFD9C1",
+      "exportedSHA256": "D5A162F3EAF2B7B6762F00700017CAE5695EBBDCE7932FEAD8316448BAAFD9C1",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c",
+      "sourceSHA256": "96A7C255246AD457497D2AC4018D00679761B8ADEBA8E196770AD22391DCB474",
+      "exportedSHA256": "96A7C255246AD457497D2AC4018D00679761B8ADEBA8E196770AD22391DCB474",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c",
+      "sourceSHA256": "7298AF1A9125A3295BDFADBA3AFD712F607D15D360A5D16DE12369E41B380FE4",
+      "exportedSHA256": "7298AF1A9125A3295BDFADBA3AFD712F607D15D360A5D16DE12369E41B380FE4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c",
+      "sourceSHA256": "AC4D019E71CC5D9DC02984F16C42B97C811A4AAAD12D46532F9ACA3CCCDF1A26",
+      "exportedSHA256": "AC4D019E71CC5D9DC02984F16C42B97C811A4AAAD12D46532F9ACA3CCCDF1A26",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c",
+      "sourceSHA256": "764627455C7CCFD157B45FE7BD5EFFE78D1BC1C8F99AF041F39E1E1E7197C3B6",
+      "exportedSHA256": "764627455C7CCFD157B45FE7BD5EFFE78D1BC1C8F99AF041F39E1E1E7197C3B6",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c",
+      "sourceSHA256": "68F8F023A5C516A5D0BA9AA2459B8441FE3F187D7983C18960FA6F37BCED4B7B",
+      "exportedSHA256": "68F8F023A5C516A5D0BA9AA2459B8441FE3F187D7983C18960FA6F37BCED4B7B",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c",
+      "sourceSHA256": "750BBA8C3AF33A2C5EA5588681BAFF79E028BAEC3080473AE550F98A79D3E57C",
+      "exportedSHA256": "750BBA8C3AF33A2C5EA5588681BAFF79E028BAEC3080473AE550F98A79D3E57C",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c",
+      "sourceSHA256": "EB1687B291E66FDF7A5A4FB8496F5D411BE6C86EDD3D75147F64E9E19BC192B3",
+      "exportedSHA256": "EB1687B291E66FDF7A5A4FB8496F5D411BE6C86EDD3D75147F64E9E19BC192B3",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c",
+      "sourceSHA256": "7894F8CF4A3BD8B214FC826CBB93AA9A20596CFC3C45760F6F775D79E28CBDA4",
+      "exportedSHA256": "7894F8CF4A3BD8B214FC826CBB93AA9A20596CFC3C45760F6F775D79E28CBDA4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c",
+      "sourceSHA256": "FAA9D7FFA04C9072035273FDF1DEDBFEE1886A4F58D29F5D0B075263EF06BC30",
+      "exportedSHA256": "FAA9D7FFA04C9072035273FDF1DEDBFEE1886A4F58D29F5D0B075263EF06BC30",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c",
+      "sourceSHA256": "5D5D66378381D9DB97BFAE8077818DE467344119516C00D205132786B0B67279",
+      "exportedSHA256": "5D5D66378381D9DB97BFAE8077818DE467344119516C00D205132786B0B67279",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c",
+      "sourceSHA256": "7BFF46E900A1BA30375A98DC58369B9E4E0AAB2EE6EA30E5D70E1ECE449D5CAE",
+      "exportedSHA256": "7BFF46E900A1BA30375A98DC58369B9E4E0AAB2EE6EA30E5D70E1ECE449D5CAE",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c",
+      "sourceSHA256": "9769AE02117154A216EF732910B07BC4EB4C1DF1ED2AE1C66629E9F3BCB725F0",
+      "exportedSHA256": "9769AE02117154A216EF732910B07BC4EB4C1DF1ED2AE1C66629E9F3BCB725F0",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c",
+      "sourceSHA256": "A8303B059435DFE1E6E6A558CA1B1441C875156058D7CF9CC49A21264409F7AF",
+      "exportedSHA256": "A8303B059435DFE1E6E6A558CA1B1441C875156058D7CF9CC49A21264409F7AF",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c",
+      "sourceSHA256": "E86B738668581F6E1A2ACF59010F5ECEB236F94A0DC6A1A8554DDF24A6437BD4",
+      "exportedSHA256": "E86B738668581F6E1A2ACF59010F5ECEB236F94A0DC6A1A8554DDF24A6437BD4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c",
+      "sourceSHA256": "446B3B7319A22F118526A4665DA8971BA48C0C31634A32A2215C6AA8B8A9BA3E",
+      "exportedSHA256": "446B3B7319A22F118526A4665DA8971BA48C0C31634A32A2215C6AA8B8A9BA3E",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c",
+      "sourceSHA256": "E82F43FD5C78801D126B86EA083853D6EA263935D77AE0B3DA7D50FEA4806AE4",
+      "exportedSHA256": "E82F43FD5C78801D126B86EA083853D6EA263935D77AE0B3DA7D50FEA4806AE4",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c",
+      "sourceSHA256": "434370A76AC8A2E17B5DF05FF97EE5382600A9D3D022F97588CB41F9693A3377",
+      "exportedSHA256": "434370A76AC8A2E17B5DF05FF97EE5382600A9D3D022F97588CB41F9693A3377",
+      "sameAsSource": true
+    },
+    {
+      "source": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c",
+      "path": "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c",
+      "sourceSHA256": "ACA1A24FC2C9F4F5DA3D39149A150CC5F444F951A50D98FEB6D9B69443E18D5C",
+      "exportedSHA256": "ACA1A24FC2C9F4F5DA3D39149A150CC5F444F951A50D98FEB6D9B69443E18D5C",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Inc/bench_config.h",
+      "path": "CleanBuck36/FirmwareCascade/Core/Inc/bench_config.h",
+      "sourceSHA256": "DA8387A00DC5D1488C38615455675979FAED387BF1FC35B235C690EE6BE4EFC0",
+      "exportedSHA256": "DA8387A00DC5D1488C38615455675979FAED387BF1FC35B235C690EE6BE4EFC0",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Inc/board.h",
+      "path": "CleanBuck36/FirmwareCascade/Core/Inc/board.h",
+      "sourceSHA256": "B31C54972FEB575E0EA35F84CEAA56C940D07F7B90BC47B3B9C8B3FD015D6282",
+      "exportedSHA256": "B31C54972FEB575E0EA35F84CEAA56C940D07F7B90BC47B3B9C8B3FD015D6282",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Inc/control.h",
+      "path": "CleanBuck36/FirmwareCascade/Core/Inc/control.h",
+      "sourceSHA256": "C16AA8EF1F6FDB532EF540A2934D290585A2606432D20F5C6C987CC6B6288345",
+      "exportedSHA256": "C16AA8EF1F6FDB532EF540A2934D290585A2606432D20F5C6C987CC6B6288345",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Inc/stm32g4xx_hal_conf.h",
+      "path": "CleanBuck36/FirmwareCascade/Core/Inc/stm32g4xx_hal_conf.h",
+      "sourceSHA256": "B444226A1DCAF8F7858CCCE2C97245DB3CD70AF17DED97A05D9E36E003F416BD",
+      "exportedSHA256": "B444226A1DCAF8F7858CCCE2C97245DB3CD70AF17DED97A05D9E36E003F416BD",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Src/board.c",
+      "path": "CleanBuck36/FirmwareCascade/Core/Src/board.c",
+      "sourceSHA256": "3CC243362E0E86E0AA30919F12DC7C4DFF3E55C9012CB4864E55B0BB91D41822",
+      "exportedSHA256": "3CC243362E0E86E0AA30919F12DC7C4DFF3E55C9012CB4864E55B0BB91D41822",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Src/control.c",
+      "path": "CleanBuck36/FirmwareCascade/Core/Src/control.c",
+      "sourceSHA256": "9E09072CDBADD4369E954CB08CD7868D33101B7C8EE960CC07F4812FC1D61A5A",
+      "exportedSHA256": "9E09072CDBADD4369E954CB08CD7868D33101B7C8EE960CC07F4812FC1D61A5A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Src/main.c",
+      "path": "CleanBuck36/FirmwareCascade/Core/Src/main.c",
+      "sourceSHA256": "FCA5F269994125FEC4252ED2352048818173319FEE1D4B359EC1556B65F64A38",
+      "exportedSHA256": "FCA5F269994125FEC4252ED2352048818173319FEE1D4B359EC1556B65F64A38",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Core/Src/system_stm32g4xx.c",
+      "path": "CleanBuck36/FirmwareCascade/Core/Src/system_stm32g4xx.c",
+      "sourceSHA256": "B03E123FA56DE3840A1C5AD0CA79EB6EE547FB836A53B31A3B89FB40EE57F4B7",
+      "exportedSHA256": "B03E123FA56DE3840A1C5AD0CA79EB6EE547FB836A53B31A3B89FB40EE57F4B7",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Build.ps1",
+      "path": "CleanBuck36/FirmwareCascade/Build.ps1",
+      "sourceSHA256": "58FEF9637F5658A657B10FBCCCCE3129DCC96D3F06B6BBF56ED8998A304D3DB2",
+      "exportedSHA256": "DE7E4641485142F18A34A7CF81C708E2461502E466433F29A26E91ADA97C47E4",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Verify.py",
+      "path": "CleanBuck36/FirmwareCascade/Verify.py",
+      "sourceSHA256": "9E8A69B4AF7DB4B3167C0F1D1E5B8ACB9B1984E0FEE864ABE3B46F0FE7BE5C28",
+      "exportedSHA256": "32A3B931D357737ABEFA773265918BF39BCAC16BF4730785D99646A6B6B65081",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/MDK-ARM/CleanBuck36.uvprojx",
+      "path": "CleanBuck36/FirmwareCascade/MDK-ARM/CleanBuck36.uvprojx",
+      "sourceSHA256": "624AB041801F381AF124317B326065D6788394812A125EB08AC693D2B7F18A88",
+      "exportedSHA256": "624AB041801F381AF124317B326065D6788394812A125EB08AC693D2B7F18A88",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/MDK-ARM/startup_stm32g474xx.s",
+      "path": "CleanBuck36/FirmwareCascade/MDK-ARM/startup_stm32g474xx.s",
+      "sourceSHA256": "81CDE175FC24C8322A3D483D8B754FE2A1AAE85D54F34119309157EA859E5826",
+      "exportedSHA256": "81CDE175FC24C8322A3D483D8B754FE2A1AAE85D54F34119309157EA859E5826",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/MDK-ARM/stm32g474xx_flash.sct",
+      "path": "CleanBuck36/FirmwareCascade/MDK-ARM/stm32g474xx_flash.sct",
+      "sourceSHA256": "9A90980FBD5C9B0ADFFB61A3128925D365BA11CBD731B4525593455658B4057F",
+      "exportedSHA256": "9A90980FBD5C9B0ADFFB61A3128925D365BA11CBD731B4525593455658B4057F",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Monitor/FixedSerialMonitor.csproj",
+      "path": "CleanBuck36/FirmwareCascade/Monitor/FixedSerialMonitor.csproj",
+      "sourceSHA256": "D4EF56DF73F1F91604A2FEF7C72003C3B13E87278ED7C8D9662364A79163A988",
+      "exportedSHA256": "D4EF56DF73F1F91604A2FEF7C72003C3B13E87278ED7C8D9662364A79163A988",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Monitor/ManualStartPolicy.cs",
+      "path": "CleanBuck36/FirmwareCascade/Monitor/ManualStartPolicy.cs",
+      "sourceSHA256": "2FCEA38CE87443CB26FAA93D8C579BD1C8D3E26EDAA50D6C07BFFC042C2715A8",
+      "exportedSHA256": "2FCEA38CE87443CB26FAA93D8C579BD1C8D3E26EDAA50D6C07BFFC042C2715A8",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Monitor/Program.cs",
+      "path": "CleanBuck36/FirmwareCascade/Monitor/Program.cs",
+      "sourceSHA256": "95FA34DDF271EF95A54BB602CF16F0B8F3B707D0514127B66AB84D21DA0BFECF",
+      "exportedSHA256": "95FA34DDF271EF95A54BB602CF16F0B8F3B707D0514127B66AB84D21DA0BFECF",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/Monitor/SerialJournal.cs",
+      "path": "CleanBuck36/FirmwareCascade/Monitor/SerialJournal.cs",
+      "sourceSHA256": "CF3E224D6D697F508B8DD4135BA39D415495C9797EDCEEDA2C304FD8746AD00C",
+      "exportedSHA256": "CF3E224D6D697F508B8DD4135BA39D415495C9797EDCEEDA2C304FD8746AD00C",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/HostTests/ManualStartTests.csproj",
+      "path": "CleanBuck36/FirmwareCascade/HostTests/ManualStartTests.csproj",
+      "sourceSHA256": "2EFD3A44DC669F950AE215604E48C3F8C4F386A7B6BD50464597A157B6B14E5E",
+      "exportedSHA256": "2EFD3A44DC669F950AE215604E48C3F8C4F386A7B6BD50464597A157B6B14E5E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/HostTests/Program.cs",
+      "path": "CleanBuck36/FirmwareCascade/HostTests/Program.cs",
+      "sourceSHA256": "ED41AA9C8086A1A64199B7F2BBCC799D81EDF17160691F48002BD65FB089C33E",
+      "exportedSHA256": "ED41AA9C8086A1A64199B7F2BBCC799D81EDF17160691F48002BD65FB089C33E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Firmware/Core/Src/control.c",
+      "path": "CleanBuck36/Firmware/Core/Src/control.c",
+      "sourceSHA256": "9E09072CDBADD4369E954CB08CD7868D33101B7C8EE960CC07F4812FC1D61A5A",
+      "exportedSHA256": "9E09072CDBADD4369E954CB08CD7868D33101B7C8EE960CC07F4812FC1D61A5A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Firmware/Core/Src/board.c",
+      "path": "CleanBuck36/Firmware/Core/Src/board.c",
+      "sourceSHA256": "3CC243362E0E86E0AA30919F12DC7C4DFF3E55C9012CB4864E55B0BB91D41822",
+      "exportedSHA256": "3CC243362E0E86E0AA30919F12DC7C4DFF3E55C9012CB4864E55B0BB91D41822",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Firmware/Core/Inc/control.h",
+      "path": "CleanBuck36/Firmware/Core/Inc/control.h",
+      "sourceSHA256": "C16AA8EF1F6FDB532EF540A2934D290585A2606432D20F5C6C987CC6B6288345",
+      "exportedSHA256": "C16AA8EF1F6FDB532EF540A2934D290585A2606432D20F5C6C987CC6B6288345",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Firmware/Core/Inc/bench_config.h",
+      "path": "CleanBuck36/Firmware/Core/Inc/bench_config.h",
+      "sourceSHA256": "42969DFE23DCB5F6616932862309F71F62112E12E898ED93E3CD1BE17D139FFF",
+      "exportedSHA256": "42969DFE23DCB5F6616932862309F71F62112E12E898ED93E3CD1BE17D139FFF",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/design_input_cascade.m",
+      "path": "CleanBuck36/Simulation/design_input_cascade.m",
+      "sourceSHA256": "ADC4B71126AE3756D557B9770EB2939236EF5368498011195A19D88EEE1B06B1",
+      "exportedSHA256": "ADC4B71126AE3756D557B9770EB2939236EF5368498011195A19D88EEE1B06B1",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/verify_input_cascade_linear.m",
+      "path": "CleanBuck36/Simulation/verify_input_cascade_linear.m",
+      "sourceSHA256": "66E5EBCB1EFE9B383DC93FF8149EC0B46A61CD3B211C61ADD96EF3E03D07423F",
+      "exportedSHA256": "66E5EBCB1EFE9B383DC93FF8149EC0B46A61CD3B211C61ADD96EF3E03D07423F",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/export_input_cascade.m",
+      "path": "CleanBuck36/Simulation/export_input_cascade.m",
+      "sourceSHA256": "F436CCC3973263D86F573BBF36EBD27CC7F19CFE6C174966193E574619CB5FE5",
+      "exportedSHA256": "F436CCC3973263D86F573BBF36EBD27CC7F19CFE6C174966193E574619CB5FE5",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/validate_input_cascade.m",
+      "path": "CleanBuck36/Simulation/validate_input_cascade.m",
+      "sourceSHA256": "C9BFE568021D63563D4625CFF8D0E970C0D5BE589A498532904D0CBFAE04C03C",
+      "exportedSHA256": "C9BFE568021D63563D4625CFF8D0E970C0D5BE589A498532904D0CBFAE04C03C",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/candidate_control.c",
+      "path": "CleanBuck36/Simulation/Candidate/candidate_control.c",
+      "sourceSHA256": "26216D17E0F24AF2E31EA4BD6A00F86938B411261F1F12947B45D9779CE47A89",
+      "exportedSHA256": "26216D17E0F24AF2E31EA4BD6A00F86938B411261F1F12947B45D9779CE47A89",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/candidate_control.h",
+      "path": "CleanBuck36/Simulation/Candidate/candidate_control.h",
+      "sourceSHA256": "99CF8212EE9750837D229A8BA65C020FF0B851FCD78D34F7AB779A39C4A3A599",
+      "exportedSHA256": "99CF8212EE9750837D229A8BA65C020FF0B851FCD78D34F7AB779A39C4A3A599",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/candidate_tests.c",
+      "path": "CleanBuck36/Simulation/Candidate/candidate_tests.c",
+      "sourceSHA256": "1F15C17F9F2499B90986CB5125E15A0E517725D1E0FF8F2369594E34366B9545",
+      "exportedSHA256": "1F15C17F9F2499B90986CB5125E15A0E517725D1E0FF8F2369594E34366B9545",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/model_fixtures.c",
+      "path": "CleanBuck36/Simulation/Candidate/model_fixtures.c",
+      "sourceSHA256": "084843D2038F942AEE426DF283D878EF6C8DD6017E63A22E7B58BD8E6C9128EF",
+      "exportedSHA256": "084843D2038F942AEE426DF283D878EF6C8DD6017E63A22E7B58BD8E6C9128EF",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/search_damping.c",
+      "path": "CleanBuck36/Simulation/Candidate/search_damping.c",
+      "sourceSHA256": "D87BEA39BBF1CB868ABC6DBC8AF87AEB3AE8C102D1FC2FDB79D2A67CFCEDDDED",
+      "exportedSHA256": "D87BEA39BBF1CB868ABC6DBC8AF87AEB3AE8C102D1FC2FDB79D2A67CFCEDDDED",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/search_parameters.c",
+      "path": "CleanBuck36/Simulation/Candidate/search_parameters.c",
+      "sourceSHA256": "15918F56D26D83489E93055986E977556D005831DEB3123A3BE2D2495238E195",
+      "exportedSHA256": "15918F56D26D83489E93055986E977556D005831DEB3123A3BE2D2495238E195",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/simulate_candidate.c",
+      "path": "CleanBuck36/Simulation/Candidate/simulate_candidate.c",
+      "sourceSHA256": "BF5A36B16FC9C7F70003024A7BABE58226F43E108CE730057DB3E406DD462955",
+      "exportedSHA256": "BF5A36B16FC9C7F70003024A7BABE58226F43E108CE730057DB3E406DD462955",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Candidate/stress_test.c",
+      "path": "CleanBuck36/Simulation/Candidate/stress_test.c",
+      "sourceSHA256": "65F0AAEF10585680CC60EFE9FEC683EB0DB0526637C3035F191386F2C02934F1",
+      "exportedSHA256": "65F0AAEF10585680CC60EFE9FEC683EB0DB0526637C3035F191386F2C02934F1",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/cascade_coefficients.h",
+      "path": "CleanBuck36/Simulation/CurrentCascade/cascade_coefficients.h",
+      "sourceSHA256": "0F9899865A1E8F55001857AA9710E18BD55885E7C980B683225B0893059FB5A7",
+      "exportedSHA256": "0F9899865A1E8F55001857AA9710E18BD55885E7C980B683225B0893059FB5A7",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/cascade_control.c",
+      "path": "CleanBuck36/Simulation/CurrentCascade/cascade_control.c",
+      "sourceSHA256": "A7A96114D57B099ED19BFDEB3861E5CD616B7BBE8AF8E3E356A1231ABFAED112",
+      "exportedSHA256": "A7A96114D57B099ED19BFDEB3861E5CD616B7BBE8AF8E3E356A1231ABFAED112",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/cascade_control.h",
+      "path": "CleanBuck36/Simulation/CurrentCascade/cascade_control.h",
+      "sourceSHA256": "5ACFEF5A43285D9CD58F535E9CE2327CAB63355AD457ECD39C00812F236D84AE",
+      "exportedSHA256": "5ACFEF5A43285D9CD58F535E9CE2327CAB63355AD457ECD39C00812F236D84AE",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/cascade_tests.c",
+      "path": "CleanBuck36/Simulation/CurrentCascade/cascade_tests.c",
+      "sourceSHA256": "8365D8255A04E5E6426A1F8D238B339FA3F85A582A00212025BE81AA4E9A167E",
+      "exportedSHA256": "8365D8255A04E5E6426A1F8D238B339FA3F85A582A00212025BE81AA4E9A167E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/simulate_cascade.c",
+      "path": "CleanBuck36/Simulation/CurrentCascade/simulate_cascade.c",
+      "sourceSHA256": "EC9C271045F52958D10AA2A675660BE59047E8DF835F9064D70109C35506470E",
+      "exportedSHA256": "EC9C271045F52958D10AA2A675660BE59047E8DF835F9064D70109C35506470E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/CurrentCascade/BuildAndRun.ps1",
+      "path": "CleanBuck36/Simulation/CurrentCascade/BuildAndRun.ps1",
+      "sourceSHA256": "6F5664EDAC274F2EBC3E5ABE58846871069A5C04D4A0A0B342EB01BCDA265BEE",
+      "exportedSHA256": "399CB2C7F47C3BB3103244FDA05A7BD750C761020A33E99C71B25D3C1CDAA74B",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/linear-design.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/linear-design.json",
+      "sourceSHA256": "D3AA483DA9FBA3941495C06DDC939FB6DD36D801E11D8D8E1A3E2E4E9A8DCD74",
+      "exportedSHA256": "D3AA483DA9FBA3941495C06DDC939FB6DD36D801E11D8D8E1A3E2E4E9A8DCD74",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/expanded-linear.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/expanded-linear.json",
+      "sourceSHA256": "221144D9668C89126C61D8C6DD414C47DF8B271D7D8FE4BA22938CD92A71DB99",
+      "exportedSHA256": "221144D9668C89126C61D8C6DD414C47DF8B271D7D8FE4BA22938CD92A71DB99",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/matlab-report.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/matlab-report.json",
+      "sourceSHA256": "6FFCD8518CC97B179F1D49C38765214C62C882AECBD2D476F040B106E3ED0672",
+      "exportedSHA256": "6FFCD8518CC97B179F1D49C38765214C62C882AECBD2D476F040B106E3ED0672",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/cascade-comparison.png",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/cascade-comparison.png",
+      "sourceSHA256": "D4E81682C1DD71287786BEAD76922822A8340833787B754BD3E29D7314886856",
+      "exportedSHA256": "B8CC7B7D225F5019B2A9D759A1D5492D0A766E6B02A150809D242CA95F7518F3",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/cascade-control-path.png",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/cascade-control-path.png",
+      "sourceSHA256": "ACEAD03D407871166C64C94A3BD2544CB5E022320C3FEC55DB6222E9D3BA9830",
+      "exportedSHA256": "B30CEC20044A6DEECEE4E66FB2FC1FC3F0FC084EF82F86D90914EFE98DF1AA71",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-actuation_gain_090.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-actuation_gain_090.csv",
+      "sourceSHA256": "A91BBAB0601324A10383DCCB8E4ECCD77BD1BE6ACC492F226B2404C76F583E9E",
+      "exportedSHA256": "A91BBAB0601324A10383DCCB8E4ECCD77BD1BE6ACC492F226B2404C76F583E9E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-actuation_gain_0937.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-actuation_gain_0937.csv",
+      "sourceSHA256": "A4F340C0B332FC9913F852F02E60DBC1198D729FE128C3E6D5B87C5F8BA15F0B",
+      "exportedSHA256": "A4F340C0B332FC9913F852F02E60DBC1198D729FE128C3E6D5B87C5F8BA15F0B",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_10ohm.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_10ohm.csv",
+      "sourceSHA256": "F075F8B14A9797732EBCD51E2424CF9CE561BB82A8E9B52E4456DB24631FD51E",
+      "exportedSHA256": "F075F8B14A9797732EBCD51E2424CF9CE561BB82A8E9B52E4456DB24631FD51E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_gain_090.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_gain_090.csv",
+      "sourceSHA256": "6FE636FE3237C97462B25F6369014780191B8B212E65AD21DBE5BC607377B924",
+      "exportedSHA256": "6FE636FE3237C97462B25F6369014780191B8B212E65AD21DBE5BC607377B924",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_gain_0937.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_gain_0937.csv",
+      "sourceSHA256": "4EC54EAFBD8026EB31D4CA33514B9DDF221FD1454E1598AFBC4E9F4DFB758588",
+      "exportedSHA256": "4EC54EAFBD8026EB31D4CA33514B9DDF221FD1454E1598AFBC4E9F4DFB758588",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_inner60us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_inner60us.csv",
+      "sourceSHA256": "F29549C272E94C5D1BF7364365DFDEEB30F745401E756976120087A4A8BFC262",
+      "exportedSHA256": "F29549C272E94C5D1BF7364365DFDEEB30F745401E756976120087A4A8BFC262",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_outer200us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-apply_outer200us.csv",
+      "sourceSHA256": "FC5CF7EE71CBCAB89EA8B28436EFFC0314C5AA5C04FB5E289C4DEBA5FBC83CD8",
+      "exportedSHA256": "FC5CF7EE71CBCAB89EA8B28436EFFC0314C5AA5C04FB5E289C4DEBA5FBC83CD8",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_feedback_disconnected.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_feedback_disconnected.csv",
+      "sourceSHA256": "02DD85C8E64DC740EACF67B9896F15E32EC434D01B14DA4139400091A4EA5476",
+      "exportedSHA256": "02DD85C8E64DC740EACF67B9896F15E32EC434D01B14DA4139400091A4EA5476",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_limit_5ohm.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_limit_5ohm.csv",
+      "sourceSHA256": "F85F916F81413540B37F84CB2ADD89C6F6C18CD2885122440DB9D34AEEB2293B",
+      "exportedSHA256": "F85F916F81413540B37F84CB2ADD89C6F6C18CD2885122440DB9D34AEEB2293B",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_only_2to2p5A.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_only_2to2p5A.csv",
+      "sourceSHA256": "65FE56E7CF640E9DEE554DAAD172D085BB4A5B109E39F8AAFC7D6A548A64F7E5",
+      "exportedSHA256": "65FE56E7CF640E9DEE554DAAD172D085BB4A5B109E39F8AAFC7D6A548A64F7E5",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_only_tau100us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-current_only_tau100us.csv",
+      "sourceSHA256": "FA70862F59090CCB0782756F54C1CB6D0FC2817FA7E800D76DF7BC7BCA90992D",
+      "exportedSHA256": "FA70862F59090CCB0782756F54C1CB6D0FC2817FA7E800D76DF7BC7BCA90992D",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-infeasible.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-infeasible.csv",
+      "sourceSHA256": "BCE849E597DFA0041F93651F5452D2FB7584938F62D44AC7872AAB717222317B",
+      "exportedSHA256": "BCE849E597DFA0041F93651F5452D2FB7584938F62D44AC7872AAB717222317B",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inject_current_trip.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inject_current_trip.csv",
+      "sourceSHA256": "A70225A787688002563683353B62B7BF4B3B95347E9B0D3ECA5D8AF295E25E75",
+      "exportedSHA256": "A70225A787688002563683353B62B7BF4B3B95347E9B0D3ECA5D8AF295E25E75",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inject_voltage_trip.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inject_voltage_trip.csv",
+      "sourceSHA256": "5012EAA38BF6FAC5579F4A8F777314DEEC79BE6B16E12BC03861D53E522E873E",
+      "exportedSHA256": "5012EAA38BF6FAC5579F4A8F777314DEEC79BE6B16E12BC03861D53E522E873E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inner_delay_60us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-inner_delay_60us.csv",
+      "sourceSHA256": "C8FF071541C2969B6806CCE4915CB7616D36D7B9E2AB889924491C263302FBAC",
+      "exportedSHA256": "C8FF071541C2969B6806CCE4915CB7616D36D7B9E2AB889924491C263302FBAC",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-input_48to45.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-input_48to45.csv",
+      "sourceSHA256": "97BCB1029A7327FAEF9D0C36287410766E00F415514DBAA3844E285459D326BB",
+      "exportedSHA256": "97BCB1029A7327FAEF9D0C36287410766E00F415514DBAA3844E285459D326BB",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-large_LC.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-large_LC.csv",
+      "sourceSHA256": "83E82E9E62115E1FD153D086D9E2AC85FF3416D7A0071A36468B37D3F0AA59CA",
+      "exportedSHA256": "83E82E9E62115E1FD153D086D9E2AC85FF3416D7A0071A36468B37D3F0AA59CA",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-load_10to20.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-load_10to20.csv",
+      "sourceSHA256": "2E450422483747E03ABE5A0229FFE41B0236B7E74AB36A94CC2CF3FEF98CA17A",
+      "exportedSHA256": "2E450422483747E03ABE5A0229FFE41B0236B7E74AB36A94CC2CF3FEF98CA17A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-noload_ADC_noise.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-noload_ADC_noise.csv",
+      "sourceSHA256": "E9018E5A58336E43C51ED06C278502F1490A75B2F513C796F1FC3123100748D4",
+      "exportedSHA256": "E9018E5A58336E43C51ED06C278502F1490A75B2F513C796F1FC3123100748D4",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-outer_delay100us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-outer_delay100us.csv",
+      "sourceSHA256": "97B7FD993CB1BE07B64996695255359A4BFF397CE6DF6EEA806D4839B861C25D",
+      "exportedSHA256": "97B7FD993CB1BE07B64996695255359A4BFF397CE6DF6EEA806D4839B861C25D",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-outer_delay200us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-outer_delay200us.csv",
+      "sourceSHA256": "F18615731E37F52CB9999B05694F5119202A1C34B738FDBE3180A19DF398FB24",
+      "exportedSHA256": "F18615731E37F52CB9999B05694F5119202A1C34B738FDBE3180A19DF398FB24",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-prebias_060.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-prebias_060.csv",
+      "sourceSHA256": "49BE79BC8BA39D084E36844167FEF8B85B12942A77A65AD546EA39A023E2E3A3",
+      "exportedSHA256": "49BE79BC8BA39D084E36844167FEF8B85B12942A77A65AD546EA39A023E2E3A3",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-remove_10ohm.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-remove_10ohm.csv",
+      "sourceSHA256": "6484AFEBE11A030FC6B9D7FEB520229D4B16BBAACC43B46838795BD9091FB24B",
+      "exportedSHA256": "6484AFEBE11A030FC6B9D7FEB520229D4B16BBAACC43B46838795BD9091FB24B",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_gain_090.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_gain_090.csv",
+      "sourceSHA256": "1C11E3A83E8AF8F0D4A271D50608F02AD2222834303A48520F22825723CE6F41",
+      "exportedSHA256": "1C11E3A83E8AF8F0D4A271D50608F02AD2222834303A48520F22825723CE6F41",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_gain_110.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_gain_110.csv",
+      "sourceSHA256": "DA5987CBF55C23E31686DA043AB4E66D4D88EB87C8C83EF4B930AD3907FF8573",
+      "exportedSHA256": "DA5987CBF55C23E31686DA043AB4E66D4D88EB87C8C83EF4B930AD3907FF8573",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_offset_024A.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_offset_024A.csv",
+      "sourceSHA256": "6E9B7B16E7BE6DAB6747BC09B540081E05311031EF598CC8DBA7E29A5758981E",
+      "exportedSHA256": "6E9B7B16E7BE6DAB6747BC09B540081E05311031EF598CC8DBA7E29A5758981E",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_tau100us.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-sensor_tau100us.csv",
+      "sourceSHA256": "9C8AB063C9B0F62DBCB6952DABA6058960ED9497EA1F66F5D5FA419402239DAE",
+      "exportedSHA256": "9C8AB063C9B0F62DBCB6952DABA6058960ED9497EA1F66F5D5FA419402239DAE",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-small_LC.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-small_LC.csv",
+      "sourceSHA256": "5DEA834FAFD5CD278E6F95FB0BE12C87DC89789E8EC3F86BDB18AA1D178D6BC8",
+      "exportedSHA256": "5DEA834FAFD5CD278E6F95FB0BE12C87DC89789E8EC3F86BDB18AA1D178D6BC8",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_10ohm.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_10ohm.csv",
+      "sourceSHA256": "7E2FD2A1E11A903D8992AEAF073ED184FBC37C7BB70E88E5171F10DA43DEE185",
+      "exportedSHA256": "7E2FD2A1E11A903D8992AEAF073ED184FBC37C7BB70E88E5171F10DA43DEE185",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_20ohm.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_20ohm.csv",
+      "sourceSHA256": "ADC8B59FB38CB6D6CD9F877C39FCF07CFEBD655AA9E149F10828D364DC1ED77A",
+      "exportedSHA256": "ADC8B59FB38CB6D6CD9F877C39FCF07CFEBD655AA9E149F10828D364DC1ED77A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_noload.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/cascade-startup_noload.csv",
+      "sourceSHA256": "75AECD477427C42901F33CC667930E1D5B9E4254A4EC8123A4CBE5E42BE48381",
+      "exportedSHA256": "75AECD477427C42901F33CC667930E1D5B9E4254A4EC8123A4CBE5E42BE48381",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/current-impulse.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/current-impulse.csv",
+      "sourceSHA256": "5A62295106413070C4A3FB00C86EF54959478F36A13E09B4C1F01A42893280B2",
+      "exportedSHA256": "5A62295106413070C4A3FB00C86EF54959478F36A13E09B4C1F01A42893280B2",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/run.log",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/run.log",
+      "sourceSHA256": "31EB249AEBC9FE46CD6E3F063E0DCFD4D31AE0D724A9DB15DCAA706882C8930A",
+      "exportedSHA256": "31EB249AEBC9FE46CD6E3F063E0DCFD4D31AE0D724A9DB15DCAA706882C8930A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/source-manifest.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/source-manifest.json",
+      "sourceSHA256": "F1824E15A8B6B05039D3048706EDDCC2103F0B10A1332521B5F1C2F8F48BF4DD",
+      "exportedSHA256": "D1A4B6DAF30A0FAE08C7F4EEBE360BC055AEAD904F8D34DCFD201994A87FA736",
+      "sameAsSource": false
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/summary.csv",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/summary.csv",
+      "sourceSHA256": "4A3BFEC66D44137272D8E335608DF6A10F32F3FF26014FE104725FEC9D2F52E5",
+      "exportedSHA256": "4A3BFEC66D44137272D8E335608DF6A10F32F3FF26014FE104725FEC9D2F52E5",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/unit-tests.log",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/nonlinear/unit-tests.log",
+      "sourceSHA256": "11EC0E47FD57B8A50335766898684C8BC98EB6B86AF693B198D3E89AE17CBF6A",
+      "exportedSHA256": "11EC0E47FD57B8A50335766898684C8BC98EB6B86AF693B198D3E89AE17CBF6A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/expanded-linear-fast-rejected.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/expanded-linear-fast-rejected.json",
+      "sourceSHA256": "0C114EC42389E649D98F6AA9C8BB0B76F3E3AB100BE3BEC4D9B64ACAC15D768A",
+      "exportedSHA256": "0C114EC42389E649D98F6AA9C8BB0B76F3E3AB100BE3BEC4D9B64ACAC15D768A",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/linear-design-fast-rejected.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/linear-design-fast-rejected.json",
+      "sourceSHA256": "7AE3DF0C892B55C62E56385186A26E12937C94A26AE116315C86B639DF32ED56",
+      "exportedSHA256": "7AE3DF0C892B55C62E56385186A26E12937C94A26AE116315C86B639DF32ED56",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/linear-design-pi-only-rejected.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/linear-design-pi-only-rejected.json",
+      "sourceSHA256": "8B567290A1B8AA0D680F010B1FD568D73D01D9D52CCE763D1329A7171A68FCB9",
+      "exportedSHA256": "8B567290A1B8AA0D680F010B1FD568D73D01D9D52CCE763D1329A7171A68FCB9",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/linear-design-tracking-grid-rejected.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/linear-design-tracking-grid-rejected.json",
+      "sourceSHA256": "0A3CE90D534F92C247A37E56C3EB229BCB13E8AB762403119251C390EB304C16",
+      "exportedSHA256": "0A3CE90D534F92C247A37E56C3EB229BCB13E8AB762403119251C390EB304C16",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/Simulation/Results/input-cascade/linear-design-tracking-grid0-rejected.json",
+      "path": "CleanBuck36/Simulation/Results/input-cascade/linear-design-tracking-grid0-rejected.json",
+      "sourceSHA256": "41755E0D71ECDDBA08DF58E83B658EA23A386A5236C4C096D313C9506AB50FF0",
+      "exportedSHA256": "41755E0D71ECDDBA08DF58E83B658EA23A386A5236C4C096D313C9506AB50FF0",
+      "sameAsSource": true
+    },
+    {
+      "source": "硬件原理图/功率拓扑及驱动.png",
+      "path": "hardware/power-stage-and-drivers.png",
+      "sourceSHA256": "5B574CA21779BBA0D17C82CC97266649188B5D27C170A2B000F1CA9AEBA8EF9D",
+      "exportedSHA256": "5B574CA21779BBA0D17C82CC97266649188B5D27C170A2B000F1CA9AEBA8EF9D",
+      "sameAsSource": true
+    },
+    {
+      "source": "硬件原理图/运算放大器.png",
+      "path": "hardware/voltage-current-sensing.png",
+      "sourceSHA256": "146EBEF1D34973BAB37186AB362E5CCE952740605CD0B6BE05185E85EE99CE1B",
+      "exportedSHA256": "146EBEF1D34973BAB37186AB362E5CCE952740605CD0B6BE05185E85EE99CE1B",
+      "sameAsSource": true
+    },
+    {
+      "source": "CleanBuck36/FirmwareCascade/MDK-ARM/Build/CLEANBUCK36_BENCH/CLEANBUCK36_BENCH.hex",
+      "path": "releases/v7/CLEANBUCK36_BENCH.hex",
+      "sourceSHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+      "exportedSHA256": "21D226A76234C3449E1EEBFFD09E33C12AAA3889BD808AB6CC19C751316964CC",
+      "sameAsSource": true
+    }
+  ],
+  "packagingChanges": [
+    "FirmwareCascade/Build.ps1: configurable compiler location and relative output manifest paths.",
+    "FirmwareCascade/Verify.py: resolve image filename in local build directory.",
+    "CurrentCascade/BuildAndRun.ps1: configurable LCC/ArmClang paths.",
+    "Public documentation replaces internal chronological READMEs.",
+    "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
+    "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
+    "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
+    "Portfolio publication: concise project overview and license/status notes; preserve file bytes in Git with .gitattributes; regenerate file checksums."
+  ],
+  "controlSourcesUnmodified": true,
+  "publishedToGitHub": true,
+  "repository": "https://github.com/555AA670/hardware-portfolio/tree/main/projects/stm32g474-four-switch-buck-boost"
+}
