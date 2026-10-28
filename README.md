@@ -25,6 +25,6 @@
 
 **主要芯片：** VL822 · RTL8153B-VB-CG · CH318T · CH347F
 
-高速 USB-A 连接器需更换为支持 10 Gbps 的型号，CH347F 功能尚未验证。项目页提供 PCB 和原理图下载。
+USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH347F 功能尚未验证。项目页提供 PCB 和原理图下载。
 
 [查看项目 →](projects/high-speed-isolated-dock/README.md)
