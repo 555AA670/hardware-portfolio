@@ -2,6 +2,8 @@
 
 基于 Rockchip RK3588 的自制核心板，完成电路设计、六层 PCB 布局布线、手工焊接及系统启动调试。在同一块样机上实现 Android 12 图形系统运行、内存测试与 CPU / NPU 本地大模型推理，将硬件设计落实到可运行的应用平台。
 
+运行的 Android 12 镜像修改自**香橙派 5 Plus**，原理图参考 **Rockchip 官方 RK3588 AIOT 参考设计**。
+
 底板尚未完成，外设还未验证，因此暂不开源 PCB 文件。
 
 ![RK3588 核心板实物与 PCB 设计](images/web-board.jpg)
@@ -18,7 +20,7 @@
 | 系统应用 | Android 12 图形界面、3D 游戏、本地大模型对话 |
 | 调试与连接 | 串口、USB OTG、ADB、scrcpy 投屏与音频转发、USB 网络共享 |
 
-[应用成果](#应用成果) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计) · [硬件踩坑记录](hardware-notes.md)
+[应用成果](#应用成果) · [板级验证](#板级验证) · [固件下载](#固件下载) · [PCB 设计](#pcb-设计) · [硬件踩坑记录](hardware-notes.md)
 
 ## 应用成果
 
@@ -139,9 +141,20 @@ LPDDR4X 四通道完成初始化，启动日志报告总容量 **4 GB**，初始
 
 </details>
 
+## 固件下载
+
+| 系统 | 版本 | 下载 |
+| --- | --- | --- |
+| Android 12 | A1，修改自香橙派 5 Plus Android 12 v1.0.2 | [Android 镜像](https://github.com/555AA670/hardware-portfolio/releases/download/rk3588-firmware-20261027/Android12-core-a1-factory.zip) |
+| Buildroot | F2，核心板基础固件 | [Buildroot 固件](https://github.com/555AA670/hardware-portfolio/releases/download/rk3588-firmware-20261027/Buildroot-core-f2.zip) |
+
+下载 ZIP 解压后，使用 RKDevTool 的“升级固件”功能烧录。完整烧录会覆盖 eMMC 上原有系统和数据。
+
+[使用说明与 SHA-256 校验值](firmware/README.md) · [固件发布页](https://github.com/555AA670/hardware-portfolio/releases/tag/rk3588-firmware-20261027)
+
 ## PCB 设计
 
-参考 Rockchip 官方硬件方案，完成处理器、LPDDR4X、电源和接口电路的设计与板级实现。采用六层 PCB，在 **T — GND — PWR — PWR — GND — B** 叠构下完成 BGA 扇出、DDR 等长、供电分配及接口布线，并使用 **0.3/0.4 mm 免费过孔规格**实现样机制作。
+原理图参考 Rockchip 官方 **RK3588_AIOT_REF_SCH_V10_20211228**，完成处理器、LPDDR4X、电源和接口电路的设计与板级实现。采用六层 PCB，在 **T — GND — PWR — PWR — GND — B** 叠构下完成 BGA 扇出、DDR 等长、供电分配及接口布线，并使用 **0.3/0.4 mm 免费过孔规格**实现样机制作。
 
 ### 层叠与阻抗
 
