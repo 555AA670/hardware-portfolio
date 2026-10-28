@@ -21,10 +21,10 @@
 
 ### [VL822 高速加隔离拓展坞](projects/high-speed-isolated-dock/README.md)
 
-四层拓展坞，带 3 个 USB-A 3.0、千兆网口、隔离 USB-A 和 CH347F。普通 USB 传文件约 331 MB/s，隔离侧接 U 盘约 37.2 MB/s，也做了 10 Gbps 协商测试。
+基于 VL822 的四层拓展坞，集成 3 路 USB-A 3.0、千兆网口、隔离 USB-A 和 CH347F。USB 文件复制约 331 MB/s，隔离侧约 37.2 MB/s，已记录 10 Gbps 链路协商结果。
 
 **主要芯片：** VL822 · RTL8153B-VB-CG · CH318T · CH347F
 
-这版高速 USB-A 座子要换成支持 10 Gbps 的型号，CH347F 还没验证。PCB 和原理图已打包放在项目里。
+高速 USB-A 连接器需更换为支持 10 Gbps 的型号，CH347F 功能尚未验证。项目页提供 PCB 和原理图下载。
 
 [查看项目 →](projects/high-speed-isolated-dock/README.md)
