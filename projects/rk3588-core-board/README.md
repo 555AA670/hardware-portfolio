@@ -158,8 +158,8 @@ LPDDR4X 四通道完成初始化，启动日志报告总容量 **4 GB**，初始
 ![布线层视图 4](images/pcb-133339.jpg)
 
 <details>
-<summary>展开查看 PCB 布线总览</summary>
+<summary>展开查看 DDR 部分布线</summary>
 
-![核心板 PCB 布线总览](images/web-pcb-routing.jpg)
+![DDR 部分布线](images/web-pcb-routing.jpg)
 
 </details>
