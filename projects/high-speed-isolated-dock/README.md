@@ -133,7 +133,7 @@ USB-A 在 5 Gbps 链路下传输稳定，文件复制速度约 **331 MB/s**。
 
 [下载 PCB 和原理图](hardware/vl822-dock-pcb-schematics.zip?raw=true)。文件包包含 PCB、4 张原理图、符号库和封装库，使用 Altium Designer 打开。
 
-- 高速 USB-A 连接器不支持 10 Gbps，需更换为支持 10 Gbps 的型号。
+- USB-A 连接器选型未考虑 10 Gbps 适配，导致该速率下信号完整性裕量不足，需更换为支持 10 Gbps 的型号。
 - CH347F 功能尚未验证。
 
 [CH318 手册](https://www.wch.cn/downloads/CH318DS1_PDF.html) · [HR911130A 资料](https://www.hanrun.com/rj45_1000/203.html) · [返回项目列表](../../README.md)
