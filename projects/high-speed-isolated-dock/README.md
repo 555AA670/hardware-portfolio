@@ -1,50 +1,40 @@
 # VL822 高速加隔离拓展坞
 
-基于 VL822 的自制四层拓展坞，完成 USB 扩展、千兆以太网与隔离调试接口的电路设计及 PCB 布局布线。通过 P4 端口的 USB 3.0 / USB 2.0 分别连接网卡与隔离支路，在同一块板上集成日常扩展接口和隔离调试接口。样机已完成 USB 设备枚举、**10 Gbps 链路协商**与文件复制测试。已有文件复制截图显示约 **331 MB/s**，网口协商速率为 **1.0 Gbps**。
+做了一块四层拓展坞，把 3 个 USB-A 3.0、千兆网口、隔离 USB-A 和 CH347F 放在一起。普通接口用来接外设，隔离侧留给 USB 设备和调试接口。
 
-![VL822 拓展坞实物与 Altium 3D 设计对照](images/board-and-3d-design.jpg)
+USB 5 Gbps 下传文件比较稳定，速度约 **331 MB/s**，也协商出了 **10 Gbps**。隔离侧接 U 盘传文件约 **37.2 MB/s**，网口协商为 **1 Gbps**。
+
+![拓展坞实物与 Altium 3D 设计](images/board-and-3d-design.jpg)
 
 ## 项目概览
 
-| 项目 | 内容 |
+| 项目 | 配置 |
 | --- | --- |
-| 主控与上游 | VL822，Type-C 经 VL162 接入 |
-| USB 扩展 | 3 路 USB-A 3.0 |
-| 以太网 | RTL8153B-VB-CG，搭配 HR911130A 集成网络变压器的千兆 RJ45 |
-| USB 隔离 | 两颗 CH318T，采用网络变压器耦合 |
-| 隔离侧接口 | CH347F 调试接口、1 路 USB-A 2.0 |
-| 隔离供电 | B0505S-2WR3，2 W 隔离电源 |
-| PCB | 四层板，华秋 04161H05-7628 叠构 |
-| 布线与分区 | 90 Ω / 100 Ω 差分阻抗计算，2 mm 隔离开槽 |
+| 上游接口 | Type-C → VL162 → VL822 |
+| 普通 USB | 3 × USB-A 3.0 |
+| 网口 | RTL8153B-VB-CG + HR911130A |
+| USB 隔离 | 两颗 CH318T，中间用网络变压器耦合 |
+| 隔离侧 | 1 × USB-A 2.0、CH347F |
+| 隔离电源 | B0505S-2WR3，2 W |
+| PCB | 四层板，华秋 04161H05-7628 |
+| 阻抗与开槽 | 90 Ω / 100 Ω 差分，2 mm 隔离槽 |
 
-[版本说明与设计文件](#版本说明与设计文件) · [功能设计](#功能设计) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计)
-
-## 版本说明与设计文件
-
-**高速 USB-A 连接器选型有误：当前型号不支持 10 Gbps（USB 3.2 Gen 2），复刻或改版时需购买明确标称支持 10 Gbps 的型号，并核对封装和焊盘。** 此处指非隔离侧的高速 USB-A，隔离侧 USB-A 为 USB 2.0。
-
-**CH347F 实际功能尚未验证。** 现有记录仅包括设备和双串口枚举，串口收发、SPI、I2C、JTAG 等功能仍待测试。
-
-[下载 PCB 与原理图源文件包](hardware/vl822-dock-pcb-schematics.zip?raw=true)
-
-文件包包含 1 份 PCB、4 张原理图、现有本地符号库和封装库，以及上述版本说明。源文件保留当前设计，连接器问题尚未在文件中修正。
+[功能设计](#功能设计) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计) · [文件下载与已知问题](#文件下载与已知问题)
 
 ## 功能设计
 
-### USB 3.0 扩展与千兆以太网
+### USB 扩展与网口
 
-Type-C 上游经 VL162 接入 VL822，三个下行端口连接 USB-A 3.0。P4 的 USB 3.0 信号连接 **RTL8153B-VB-CG**，再通过 **HR911130A** 引出千兆网口，将 USB 扩展与有线网络集中到同一上游接口。
+Type-C 通过 VL162 接到 VL822，其中三个端口接 USB-A 3.0。P4 的 USB 3.0 接 RTL8153B-VB-CG，再接带网络变压器的 HR911130A 网口。
 
-### USB 2.0 隔离扩展
+### 隔离 USB 与 CH347F
 
-P4 的 USB 2.0 信号接入上位机模式的 **CH318T**，经网络变压器耦合至隔离侧的另一颗 CH318T。下位机 CH318T 的两个 USB 2.0 下行端口分别连接 **CH347F** 和普通 USB-A，形成隔离调试与隔离外设两路接口。
+P4 的 USB 2.0 接上位机模式的 CH318T，通过网络变压器连到隔离侧的另一颗 CH318T。隔离侧有两个 USB 2.0 下行口，一个接普通 USB-A，另一个接 CH347F。
 
-### 隔离调试与供电
-
-CH347F 的调试信号通过板右侧排针引出，与隔离 USB-A 共用隔离侧电源和地。供电采用 **B0505S-2WR3、2 W 隔离电源**，配合 USB 数据链路的变压器耦合构成隔离支路。
+隔离侧由 2 W 的 B0505S-2WR3 供电，CH347F 的信号通过右侧排针引出。
 
 <details>
-<summary>展开查看硬件功能框图</summary>
+<summary>硬件框图</summary>
 
 ```mermaid
 flowchart LR
@@ -67,37 +57,20 @@ flowchart LR
 
 ## 板级验证
 
-### USB 设备枚举
+### USB 设备识别
 
-电脑端 USB 设备树显示，VIA Hub 的 USB 2.0 与 USB 3.x 分支均已枚举。USB 2.0 分支的 P4 下可见两级沁恒 Hub 及 CH347F 复合设备，USB 3.x 分支的 P4 下可见 **Realtek USB GbE Family Controller**，与 P4 分别连接隔离 USB 和网卡的设计对应。
+电脑能识别出 VIA Hub、两级沁恒 Hub、Realtek 网卡和 CH347F。CH347F 的两个串口分别显示为 **COM19、COM16**，多功能接口节点还有一个“28”提示。
 
-| 验证内容 | 截图结果 |
-| --- | --- |
-| USB Hub | VIA Labs USB 2.1 Hub、USB 3.1 Gen 1 Hub 均被识别 |
-| 隔离 USB 链路 | 枚举出两级 Nanjing QinHeng USB 2.0 Hub 及下游 CH347F |
-| CH347F 双串口 | 枚举为 SERIAL-A：COM19、SERIAL-B：COM16；收发功能未验证 |
-| 以太网设备 | Realtek USB GbE Family Controller 被识别 |
-| CH347F 多功能接口 | 尚未验证；UART+SPI+I2C+JTAG 节点显示“28”提示，驱动状态待确认 |
+![USB 设备树中的 Hub、网卡和 CH347F](images/usb-device-enumeration.png)
 
-![拓展坞 USB 设备树：VIA Hub、沁恒 Hub、CH347F 双串口与 Realtek 网卡枚举结果](images/usb-device-enumeration.png)
+### 10 Gbps 协商
 
-### USB 10 Gbps 链路协商
+接上 **HIKSEMI T9 PRO PSSD** 后，USB Device Tree Viewer 显示连接速度为 **SuperSpeedPlus 10 Gbps**，Rx、Tx 都是单通道 10 Gbps，端口链为 **2-4-1**。
 
-将 **HIKSEMI T9 PRO PSSD** 接入自制拓展坞后，USB Device Tree Viewer 记录当前连接为 **SuperSpeedPlus 10 Gbps**。连接信息同时给出 Rx、Tx 均为单通道 10 Gbps，确认此次设备连接已完成 USB 3.2 Gen 2 速率协商。 **此记录为一次连接的协商结果；当前 USB-A 连接器存在上述选型问题，改版仍需更换为支持 10 Gbps 的型号。**
-
-| 验证内容 | 日志记录 |
-| --- | --- |
-| 测试设备 | HIKSEMI T9 PRO PSSD，VID 152D / PID 0583 |
-| 端口链 | 2-4-1 |
-| 端口与设备最高速率 | SuperSpeedPlus 10 Gbit/s |
-| 当前连接速率 | SuperSpeedPlus 10 Gbit/s |
-| Rx / Tx 链路 | 各 1 Lane，10 Gbps |
-| 存储驱动 | UASPStor |
-
-[查看 10 Gbps 协商日志摘录](logs/usb-10gbps-negotiation.txt)
+[查看协商日志](logs/usb-10gbps-negotiation.txt)
 
 <details>
-<summary>展开查看当前连接速率关键字段</summary>
+<summary>10 Gbps 日志</summary>
 
 ```text
 Port Chain               : 2-4-1
@@ -113,48 +86,53 @@ DevIsOpAtSsPlusOrHigher   : 1
 
 </details>
 
-### USB 3.0 文件传输
+### 普通 USB-A 传文件
 
-此前的 **USB 5 Gbps 链路**文件复制测试运行稳定。通过拓展坞进行文件复制时，截图中的速度曲线较为平稳，接近完成时显示约 **331 MB/s**；5 Gbps 为 USB 链路速率，331 MB/s 为此次文件复制截图中的传输速度。
+5 Gbps 下传文件比较稳定，复制速度约 **331 MB/s**。
 
-![通过 VL822 拓展坞复制文件，截图速度约 331 MB/s](images/usb3-file-transfer-redacted.png)
+![普通 USB-A 文件复制，约 331 MB/s](images/usb3-file-transfer-redacted.png)
 
-### 隔离侧 USB-A 文件传输
+### 隔离侧 USB-A 传文件
 
-U 盘接入隔离侧 USB-A 后，通过 **CH318T 变压器隔离链路**进行文件复制，截图时进度为 **10%**，传输速度约 **37.2 MB/s**，记录了隔离支路连接实际存储设备时的数据传输表现。
+U 盘插在隔离侧 USB-A 上，传文件约 **37.2 MB/s**。
 
-![隔离侧 USB-A 接 U 盘的文件复制，截图速度约 37.2 MB/s，姓名已打码](images/isolated-usba-transfer-redacted.png)
+![隔离侧 USB-A 接 U 盘传文件，约 37.2 MB/s](images/isolated-usba-transfer-redacted.png)
 
-### 千兆以太网链路
+### 网口连接
 
-Windows 已识别 **Realtek USB GbE Family Controller**，以太网状态显示连接速率为 **1.0 Gbps**，确认网口完成千兆链路协商。
+电脑识别为 **Realtek USB GbE Family Controller**，以太网连接速度显示 **1.0 Gbps**。
 
-![RTL8153B 网卡的以太网连接状态，协商速率 1.0 Gbps](images/ethernet-1gbps-link.png)
+![网口协商速度 1.0 Gbps](images/ethernet-1gbps-link.png)
 
 ## PCB 设计
 
-采用四层 PCB 完成 VL822、网卡、隔离 USB 与供电电路的布局布线。三个 USB-A 3.0 和千兆网口沿板边布置，隔离调试区集中在板右侧。
+三个 USB-A 3.0 和网口沿板边摆放，右侧是隔离 USB-A、CH347F 和调试排针。
 
 ### 层叠与阻抗
 
-使用华秋 **04161H05-7628** 层叠结构进行阻抗计算，覆盖 **90 Ω、100 Ω 差分**参数。下图给出对应的线宽、线距、参考层及介质厚度；计算结果分别约为 **89.70–90.24 Ω** 和 **100.04–100.23 Ω**。
+用华秋 **04161H05-7628** 四层叠构计算 **90 Ω、100 Ω 差分阻抗**，线宽、线距和参考层见下图。
 
-![四层板层叠与 90 Ω、100 Ω 差分阻抗计算参数](images/stackup-impedance.png)
+![四层叠构与差分阻抗计算](images/stackup-impedance.png)
 
 ### 布局与布线
 
-以下两张图展示不同布线视图，可见 VL822 向 USB-A 接口的差分走线、网卡至 RJ45 的连接，以及隔离侧调试排针的信号引出。
+下面两张是不同层的布线，可以看到 USB 差分线、网口走线和右侧调试信号。
 
-![VL822 拓展坞 PCB 布局与接口分布](images/pcb-routing-overview.png)
+![PCB 布线视图一](images/pcb-routing-overview.png)
 
-![VL822 拓展坞布线与供电铜皮](images/pcb-routing-secondary.png)
+![PCB 布线视图二](images/pcb-routing-secondary.png)
 
-### 隔离边界与铜皮分区
+### 隔离分区
 
-主电路区与隔离调试区之间采用 **2 mm 开槽**，隔离侧独立使用 **ISO+5V、GND_ISO** 网络。下图展示电源铜皮、隔离侧连接与开槽边界的布局关系。
+中间开 **2 mm 槽**，隔离侧单独使用 **ISO+5V、GND_ISO**。USB 信号通过两颗 CH318T 之间的网络变压器跨过隔离边界，电源通过 2 W 隔离模块供给。
 
-![拓展坞铜皮分区与 2 mm 隔离开槽](images/pcb-isolation-copper.png)
+![电源铜皮与隔离分区](images/pcb-isolation-copper.png)
 
-USB 隔离支路使用两颗 CH318T 之间的网络变压器；HR911130A 内置的网络变压器用于以太网接口。
+## 文件下载与已知问题
 
-[CH318 技术手册](https://www.wch.cn/downloads/CH318DS1_PDF.html) · [HR911130A 产品资料](https://www.hanrun.com/rj45_1000/203.html) · [返回项目作品集](../../README.md)
+[下载 PCB 和原理图](hardware/vl822-dock-pcb-schematics.zip?raw=true)，里面有 PCB、4 张原理图、符号库和封装库，用 Altium Designer 打开。
+
+- 这版高速 USB-A 座子选错了，不支持 10 Gbps，要换专门支持 10 Gbps 的型号。
+- CH347F 还没验证。
+
+[CH318 手册](https://www.wch.cn/downloads/CH318DS1_PDF.html) · [HR911130A 资料](https://www.hanrun.com/rj45_1000/203.html) · [返回项目列表](../../README.md)
