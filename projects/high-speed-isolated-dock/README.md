@@ -2,7 +2,7 @@
 
 基于 VL822 的自制四层拓展坞，完成 USB 扩展、千兆以太网与隔离调试接口的电路设计及 PCB 布局布线。通过 P4 端口的 USB 3.0 / USB 2.0 分别连接网卡与隔离支路，在同一块板上集成日常扩展接口和隔离调试接口。
 
-![VL822 拓展坞 PCB 布局与接口分布](images/pcb-routing-overview.png)
+![VL822 拓展坞实物与 Altium 3D 设计对照](images/board-and-3d-design.jpg)
 
 ## 项目概览
 
@@ -83,7 +83,9 @@ flowchart LR
 
 ### 布局与布线
 
-页首与下图展示不同布线视图，可见 VL822 向 USB-A 接口的差分走线、网卡至 RJ45 的连接，以及隔离侧调试排针的信号引出。
+以下两张图展示不同布线视图，可见 VL822 向 USB-A 接口的差分走线、网卡至 RJ45 的连接，以及隔离侧调试排针的信号引出。
+
+![VL822 拓展坞 PCB 布局与接口分布](images/pcb-routing-overview.png)
 
 ![VL822 拓展坞布线与供电铜皮](images/pcb-routing-secondary.png)
 
