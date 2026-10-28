@@ -19,7 +19,7 @@
 
 布局围绕 RK3568、MCU 和外围接口展开。下方视图展示 BGA 扇出、成组信号走线和铜皮分布。
 
-![PCB 布线与铜皮视图一](images/pcb-layout-view-1.png)
+![PCB 布线与铜皮视图一](images/pcb-layout-view-1-revised.png)
 
 ![PCB 布线与铜皮视图二](images/pcb-layout-view-2.png)
 
