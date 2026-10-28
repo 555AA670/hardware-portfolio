@@ -21,6 +21,6 @@
 
 ### [高速加隔离拓展坞](projects/high-speed-isolated-dock/README.md)
 
-基于 VL822、RTL8153B-VB-CG、CH318T 和 CH347F 的高速加隔离拓展坞。项目资料与调试记录待补充。
+四层 PCB 集成 3 路 USB-A 3.0、千兆以太网、隔离 USB-A 与 CH347F 调试接口。通过两颗 CH318T、网络变压器和 2 W 隔离电源构建隔离支路，采用 2 mm 开槽分区，并完成 90 Ω / 100 Ω 差分阻抗计算。
 
 [查看项目 →](projects/high-speed-isolated-dock/README.md)
