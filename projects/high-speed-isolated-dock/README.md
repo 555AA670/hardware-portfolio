@@ -75,7 +75,7 @@ flowchart LR
 
 样机在 **USB 5 Gbps 链路**下运行稳定。通过拓展坞进行文件复制时，截图中的速度曲线较为平稳，接近完成时显示约 **331 MB/s**；5 Gbps 为 USB 链路速率，331 MB/s 为此次文件复制截图中的传输速度。
 
-![通过 VL822 拓展坞复制文件，截图速度约 331 MB/s](images/usb3-file-transfer.png)
+![通过 VL822 拓展坞复制文件，截图速度约 331 MB/s](images/usb3-file-transfer-redacted.png)
 
 ### 千兆以太网链路
 
