@@ -32,4 +32,6 @@
 
 **关键词：** VL822 · USB 3.0 · 千兆以太网 · CH318T · CH347F · 四层 PCB · 隔离设计
 
+**当前版本：** 高速 USB-A 连接器需更换为明确支持 10 Gbps 的型号；CH347F 功能尚未验证。
+
 [查看项目设计与成果 →](projects/high-speed-isolated-dock/README.md)
