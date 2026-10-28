@@ -1,4 +1,20 @@
-# 硬件资料与原型差异
+# 硬件资料与调试配置
+
+## Altium 工程
+
+[下载原理图与 PCB 工程](fsw-altium-20261028.zip?raw=true)，解压后用 Altium Designer 打开 FSBB.PrjPcb。
+
+| 文件 | 内容 |
+| --- | --- |
+| FSW.PcbDoc | PCB |
+| FSW.SchDoc | 控制电路 |
+| power.SchDoc | 功率级与驱动 |
+| auxiliary power supply.SchDoc | 辅助电源 |
+| sense.SchDoc | 电压、电流采样 |
+| NTC.SchDoc | 温度采样 |
+| FSW.SchLib / FSW.PcbLib / FSW.IntLib | 符号库、封装库和集成库 |
+
+![四开关电源实物与 3D 设计](../images/board-and-3d-design.jpg)
 
 ## 四开关拓扑
 
@@ -44,11 +60,8 @@ Q1/Q2构成输入桥，Q3/Q4构成输出桥；本资料中的Q编号采用此定
 
 实际总容量、MLCC直流偏压降额、ESR及温度影响尚需测量；仿真使用参数范围而非假称已取得完整实测值。
 
-## 待补齐文件
+## 后续补充
 
-- 全套原理图PDF及EDA源工程，包含MCU、辅源、接口与电压域。
-- PCB源文件、Gerber/钻孔、层叠、板厚、铜厚、装配图。
-- 与最新实物一致的BOM、器件替换说明、正反面实物照片。
-- 电感规格、驱动/自举实装值、散热条件和测量点说明。
-
-当前两张截图不足以独立复刻整板，不能作为完整生产资料包。
+- Gerber、钻孔与装配资料。
+- 最新装机 BOM、散热条件和器件替换记录。
+- 电感规格、驱动与自举配置。

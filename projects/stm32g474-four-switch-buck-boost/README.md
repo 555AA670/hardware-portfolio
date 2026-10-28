@@ -4,7 +4,7 @@
 
 目前完成 Buck 模式的 **48 V → 36 V、10 Ω 负载、约 130 W** 测试，效率 **93.2%**，运行 **66.35 秒**后触发温度保护。Boost 和模式自动切换尚未完成。
 
-![48 V 转 36 V 带载运行曲线](images/v7-measured-run.png)
+![四开关电源实物与 Altium 3D 设计](images/board-and-3d-design.jpg)
 
 ## 项目概览
 
@@ -57,6 +57,8 @@ v7 中 Q1/Q2 由 HRTIM 输出互补 PWM，Q3/Q4 保持关闭。系统上电停�
 | 故障窗口 NTC 最高值 | NTC0：51.2 °C；NTC1：54.0 °C |
 | 停机状态 | code1 温度保护，OEN=000 |
 
+![48 V 转 36 V 带载运行曲线](images/v7-measured-run.png)
+
 <details>
 <summary>串口记录节选</summary>
 
@@ -106,6 +108,7 @@ MATLAB 用于线性模型和参数设计，C 仿真使用固件中的控制算�
 
 | 资料 | 入口 |
 | --- | --- |
+| Altium 原理图与 PCB | [FSW 硬件工程](hardware/fsw-altium-20261028.zip?raw=true) |
 | MCU 固件与 Keil 工程 | [FirmwareCascade](CleanBuck36/FirmwareCascade) |
 | 串口上位机 | [Monitor](CleanBuck36/FirmwareCascade/Monitor) |
 | 已烧录 v7 固件 | [CLEANBUCK36_BENCH.hex](releases/v7/CLEANBUCK36_BENCH.hex) |
@@ -115,6 +118,6 @@ MATLAB 用于线性模型和参数设计，C 仿真使用固件中的控制算�
 
 [下载完整资料包](https://github.com/555AA670/hardware-portfolio/raw/refs/heads/main/projects/stm32g474-four-switch-buck-boost/releases/stm32g474-four-switch-20261028.zip)
 
-目前提供功率级和采样电路的局部原理图，完整 EDA 工程及 PCB 文件后续补充。
+硬件工程包含 PCB、5 张原理图及元件库，使用 Altium Designer 打开 FSBB.PrjPcb。
 
 [许可说明](LICENSE-STATUS.md) · [返回项目列表](../../README.md)

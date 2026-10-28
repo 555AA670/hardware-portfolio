@@ -21,13 +21,15 @@
   "FirmwareFlashed": false,
   "RemotePublished": true,
   "licensePending": true,
-  "hardwareEDAComplete": false,
+  "hardwareEDAComplete": true,
   "publicationChecks": {
     "date": "2026-10-28",
     "originalManifestFilesVerified": 196,
     "relativeLinksChecked": 45,
     "keilSourceFilesResolved": 23,
     "firmwareHashUnchanged": true,
-    "firmwareRebuiltDuringImport": false
+    "firmwareRebuiltDuringImport": false,
+    "hardwareSourceFilesVerified": 11,
+    "portableAltiumDocuments": 9
   }
 }

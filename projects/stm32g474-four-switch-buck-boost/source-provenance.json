@@ -1215,9 +1215,15 @@
     "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
     "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
     "Relocated offline verification may regenerate simulation/build manifests; original source hashes remain recorded alongside exported hashes.",
-    "Portfolio publication: concise project overview and license/status notes; preserve file bytes in Git with .gitattributes; regenerate file checksums."
+    "Portfolio publication: concise project overview and license/status notes; preserve file bytes in Git with .gitattributes; regenerate file checksums.",
+    "Added FSW Altium hardware archive and board photo; localized project document references inside hardware archive."
   ],
   "controlSourcesUnmodified": true,
   "publishedToGitHub": true,
-  "repository": "https://github.com/555AA670/hardware-portfolio/tree/main/projects/stm32g474-four-switch-buck-boost"
+  "repository": "https://github.com/555AA670/hardware-portfolio/tree/main/projects/stm32g474-four-switch-buck-boost",
+  "hardwareArchive": {
+    "path": "hardware/fsw-altium-20261028.zip",
+    "originalPCBAndSchematicBytesPreserved": true,
+    "projectFileAdjustment": "Keep bundled local documents and renumber Document sections."
+  }
 }
