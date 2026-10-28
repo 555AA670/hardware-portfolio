@@ -17,7 +17,7 @@
 | PCB | 四层板，华秋 04161H05-7628 叠构 |
 | 布线与分区 | 90 Ω / 100 Ω 差分阻抗计算，2 mm 隔离开槽 |
 
-[功能设计](#功能设计) · [PCB 设计](#pcb-设计)
+[功能设计](#功能设计) · [板级验证](#板级验证) · [PCB 设计](#pcb-设计)
 
 ## 功能设计
 
@@ -54,6 +54,22 @@ flowchart LR
 ```
 
 </details>
+
+## 板级验证
+
+### USB 设备枚举
+
+电脑端 USB 设备树显示，VIA Hub 的 USB 2.0 与 USB 3.x 分支均已枚举。USB 2.0 分支的 P4 下可见两级沁恒 Hub 及 CH347F 复合设备，USB 3.x 分支的 P4 下可见 **Realtek USB GbE Family Controller**，与 P4 分别连接隔离 USB 和网卡的设计对应。
+
+| 验证内容 | 截图结果 |
+| --- | --- |
+| USB Hub | VIA Labs USB 2.1 Hub、USB 3.1 Gen 1 Hub 均被识别 |
+| 隔离 USB 链路 | 枚举出两级 Nanjing QinHeng USB 2.0 Hub 及下游 CH347F |
+| CH347F 双串口 | SERIAL-A：COM19；SERIAL-B：COM16 |
+| 以太网设备 | Realtek USB GbE Family Controller 被识别 |
+| CH347F 多功能接口 | UART+SPI+I2C+JTAG 节点显示“28”提示，驱动状态待确认 |
+
+![拓展坞 USB 设备树：VIA Hub、沁恒 Hub、CH347F 双串口与 Realtek 网卡枚举结果](images/usb-device-enumeration.png)
 
 ## PCB 设计
 
