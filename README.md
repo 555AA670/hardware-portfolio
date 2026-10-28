@@ -38,3 +38,11 @@ USB-A 连接器在 10 Gbps 下信号完整性裕量不足，需更换型号；CH
 **关键词：** STM32G474 · HRTIM · 四开关 Buck-Boost · 双环控制 · MATLAB · C#
 
 [查看项目设计与测试 →](projects/stm32g474-four-switch-buck-boost/README.md)
+
+## PCB Layout 项目
+
+### [RK3568 + MCU 异构 ROS 六层控制板](projects/rk3568-mcu-ros-control-board/README.md)
+
+基于 RK3568 与 MCU 的六层控制板，已完成 PCB 布局布线和打板。当前尚未焊接及上电验证。
+
+[查看 PCB Layout →](projects/rk3568-mcu-ros-control-board/README.md)
