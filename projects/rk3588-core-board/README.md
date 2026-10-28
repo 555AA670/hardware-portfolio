@@ -10,6 +10,7 @@
 | --- | --- |
 | 主处理器 | Rockchip RK3588 |
 | 内存 | 4 GB LPDDR4X，四通道，初始化频点 2112 MHz |
+| 存储 | eMMC，日志识别用户区 14910 MB，8-bit 总线、200 MHz 时钟 |
 | PCB | 六层板，0.3/0.4 mm 免费过孔规格 |
 | 层叠结构 | T — GND — PWR — PWR — GND — B |
 | 系统应用 | Android 12 图形界面、3D 游戏、本地大模型对话 |
@@ -41,21 +42,96 @@
 
 ![我的世界试玩版实机运行](images/minecraft-demo.jpg)
 
-## 内存与样机验证
+## 板级验证
+
+### DDR 训练与 eMMC 初始化
+
+串口启动日志记录了 DDR 在 **1068 MHz、1560 MHz、2112 MHz** 频点的切换与四通道训练参数，并最终切换到 **F0：2112 MHz**。随后进入 Boot1，完成 eMMC 接口初始化，识别到 **14910 MB** 用户区，配置 **8-bit 总线**和 **200 MHz 时钟**。
+
+| 验证内容 | 日志记录 |
+| --- | --- |
+| DDR 通道 | CH0–CH3 均输出训练参数 |
+| DDR 最后切换频点 | F0：2112 MHz |
+| eMMC 数据总线 | 8-bit |
+| eMMC 时钟 | 200 MHz |
+| eMMC 用户区 | 14910 MB |
+
+[查看启动日志文本](logs/ddr-emmc-boot.txt)
+
+<details>
+<summary>展开查看 DDR 与 eMMC 启动日志</summary>
+
+```text
+ch0 ttot10
+ch1 ttot10
+ch2 ttot10
+ch3 ttot10
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F2: 1068MHz
+ch0 ttot12
+ch1 ttot12
+ch2 ttot12
+ch3 ttot12
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F3: 1560MHz
+ch0 ttot14
+ch1 ttot14
+ch2 ttot14
+ch3 ttot14
+CH0 rx vref:28.5%
+CH1 rx vref:29.4%
+CH2 rx vref:26.6%
+CH3 rx vref:28.5%
+change to F0: 2112MHz
+ch0 ttot16
+ch1 ttot16
+ch2 ttot18
+ch3 ttot16
+stride=0x2, ddr_config=0x0
+hash ch_mask0-1 0x20 0x40, bank_mask0-3 0xa00 0x1400 0x2800 0x0, rank_mask0 0x0
+out
+Boot1 Release Time: Oct 17 2023 17:09:54, version: 1.11
+Emmc IO init.
+Emmc IO init.
+mmc_set_bus_width: 1
+SetEmmcClk: 375000, 2, 64
+mmc_switch index:183, value:0x2
+mmc_switch index:185, value:0x2
+SetEmmcClk: 375000, 2, 64
+mmc_set_bus_width: 8
+SetEmmcClk: 200000000, 0, 3
+Enable PHY CLK: 200000000, timing: 9
+SdmmcInit=2 0
+BootCapSize=100000
+UserCapSize=14910MB
+FwPartOffset=2000 , 100000
+UsbBoot ...150344
+powerOn 152622
+```
+
+</details>
+
+### 内存读写测试
 
 LPDDR4X 四通道完成初始化，启动日志报告总容量 **4 GB**，初始化频点 **2112 MHz**。在系统启动后进一步使用 memtester 检查内存读写，包括随机数据、算术比较、位模式和顺序写入等测试项。
 
 | 测试 | 截图结果 |
 | --- | --- |
 | 2048 MB 内存测试，1 轮 | PASS，0 failures |
-| 10 轮循环内存测试 | PASS，0 failures |
+| 1024 MB 内存测试，10 轮 | PASS，0 failures |
 
 ![2048 MB memtester 测试通过](images/memtester-2048mb.png)
 
 <details>
-<summary>展开查看 10 轮循环测试结果</summary>
+<summary>展开查看 1024 MB × 10 轮测试结果</summary>
 
-![10 轮 memtester 测试结果](images/memtester-10-loops.png)
+![1024 MB × 10 轮 memtester 测试结果](images/memtester-10-loops.png)
 
 </details>
 
